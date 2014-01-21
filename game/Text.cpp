@@ -45,4 +45,6 @@ namespace engine{
         resultatyta = TTF_RenderText_Solid(sys.fonten, value.c_str(), color);
         draw();
     }
+    
+    //liten ändring...
 }
