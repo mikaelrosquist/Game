@@ -12,10 +12,7 @@ namespace engine {
 		if(erased)// Om inte träffad, så ritar vi ut buggen.
 			return;
 		
-		if (shoot) {
-			SDL_BlitSurface(Sprite::images[1]->getSurface(), NULL,sys.screen, &rect);
-		} else
-			SDL_BlitSurface(Sprite::images[0]->getSurface(), NULL,sys.screen, &rect);
+		SDL_BlitSurface(Sprite::images[0]->getSurface(), NULL,sys.screen, &rect);
 	}
 	
 	Bug:: ~Bug() {

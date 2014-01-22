@@ -29,11 +29,11 @@ namespace engine{
 	}
 	
     void Player::keyDown(SDLKey key) {
-        if(key == SDLK_RIGHT)
+        if(keystate [SDLK_RIGHT])
 			rect.x += 10;
-        if(key == SDLK_LEFT)
+        if(keystate [SDLK_LEFT])
             rect.x -= 10;
-        if(key == SDLK_UP) {
+        if(keystate [SDLK_UP]) {
             Rectangle rectangel = rect.centeredRect(10,10);
             Bullet* bull = Bullet::getInstance(rectangel.x, rectangel.y, UP, 10);
             sys.level->addBullets(bull);// Lägger in den i vectorn.

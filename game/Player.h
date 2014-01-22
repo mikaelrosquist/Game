@@ -12,6 +12,7 @@ namespace engine {
         int value;
         Player ( Player& other); //Copy-konstruktorn läggs privat för att förhindra värdesemantik
         Player& operator= (Sprite& other); //Tilldelning läggs privat för att förhindra värdesemantik
+        Uint8 *keystate = SDL_GetKeyState(NULL);
         
         
     protected:

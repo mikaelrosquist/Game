@@ -6,7 +6,7 @@ namespace engine{
     
     MinBug::MinBug(int x, int y, int speed, int value, bool shoot) : Bug(x,y, speed,value,shoot){
         addImage(new Image("../../../../../../Image/MinBug1.png", true));
-        addImage(new Image("../../../../../../Image/Ship_red.png", true));
+        addImage(new Image("../../../../../../Image/Ship.png", true));
     }
     
     /*void MinBug::draw() {

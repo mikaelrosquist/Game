@@ -12,7 +12,7 @@
 
 namespace engine {
     
-    GameEngine :: GameEngine() : score(0), speed(FPSMEDIUM) {
+    GameEngine :: GameEngine() : score(0), speed(FPS) {
         
     }
     

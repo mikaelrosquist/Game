@@ -7,7 +7,7 @@ namespace engine{
     
     BigBug::BigBug(int x, int y, int speed, int value, bool shoot) : Bug(x,y,speed,value,shoot){
         addImage(new Image("../../../../../../Image/BigBug3.png", true));
-        addImage(new Image("../../../../../../Image/Ship_red.png", true));
+        addImage(new Image("../../../../../../Image/Ship.png", true));
         // Lägg till ytterligare en bild, byt mellan dessa med något interval (tick).
     }
     
