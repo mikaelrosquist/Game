@@ -7,49 +7,80 @@
 #include "Ship.h"
 #include "Globals.h"
 #include "Frame.h"
-
+#include "GameEngine.h"
+#include "Test.h"
+#define MINBUGVALUE 10 // poäng för varje bug.
+#define MEDBUGVALUE 20
+#define BIGBUGVALUE 30
 
 using namespace std;
 using namespace engine;
 
+Frame* createLevel1(){
+    Frame* frame = new Frame(); // Skapa spelnivå och tillsätt Sprites
+    
+    int xPos = 0;
+    
+    for(int i=0 ; i<10 ; i++) {
+        xPos += 50;
+        frame->addBugs(MinBug :: getInstance(xPos,90,10,MINBUGVALUE,false));
+        frame->addBugs(MedBug :: getInstance(xPos,140,10,MEDBUGVALUE,false));
+        frame->addBugs(BigBug :: getInstance(xPos,190,10,BIGBUGVALUE,true));
+    }
+    
+    frame->addPlayer(Player :: getInstance(400,500,10,5));
+    
+    //Ship* bug4 = Ship :: getInstance(10,60,10,5,false);
+    //frame->addBugs(bug4);
+    
+    return frame;
+}
+
+Frame* createLevel2(){
+    Frame* frame = new Frame(); // Skapa spelnivå och tillsätt Sprites
+    
+    int xPos = 0;
+    
+    for(int i=0 ; i<10 ; i++) {
+        xPos += 50;
+        frame->addBugs(MinBug :: getInstance(xPos,90,10,MINBUGVALUE,false));
+        frame->addBugs(MedBug :: getInstance(xPos,140,10,MEDBUGVALUE,false));
+        frame->addBugs(BigBug :: getInstance(xPos,190,10,BIGBUGVALUE,true));
+    }
+    
+    frame->addPlayer(Player :: getInstance(400,500,10,5));
+    Ship* bug4 = Ship :: getInstance(10,60,10,5,false);
+    frame->addBugs(bug4);
+    
+    return frame;
+}
+
 /*
-    Fixa
-    - kollision metod
-    - poäng räkning
-    - byta bild
-    - sätta hastighet
-    - städa bort Sprites
-    -
+ Fixa
+ - kollision metod
+ - poäng räkning
+ - byta bild
+ - sätta hastighet
+ - städa bort Sprites
+ 
  */
 int main(int argc, char ** argv) {
     
-    sys.init();
-    Frame fram;//Namnet Frame verkar kollidera med Windows bib
-    sys.level = &fram;
-    fram.init();
-    fram.run();
+    GameEngine engine; // Skapa och initiera motorn/händelseloopen
+    engine.init();
+    bool continueGame = true;
+    std::vector<Frame*>frames;
+    frames.push_back(createLevel1());
+    frames.push_back(createLevel2());
     
-    /*if(SDL_Init(SDL_INIT_EVERYTHING) ==1) {
-        cerr << "Kan inte initiera SDL! \n";
-        exit (-1);
+    vector<Frame*>::iterator iter = frames.begin();
+    
+    while(continueGame && iter != frames.end()) {
+        engine.setFrame(*iter);
+        continueGame = engine.run(); // Om spelet ska fortsätta eller inte.
+        iter++;
     }
-    SDL_Surface* screen = SDL_SetVideoMode( 800,600,32, SDL_SWSURFACE|SDL_DOUBLEBUF);
-    if( screen == NULL) {
-        cerr << "Kan inte skapa skärm! \n";
-        exit(-1);
-    }
-    Uint32 bgColor = SDL_MapRGB(screen->format, 255, 200, 200);
-    SDL_FillRect(screen, NULL, bgColor);
-    SDL_Flip(screen);
-    
-    Bug* buggen = new Bug(10,50,300,100);
-    buggen->tick();
-    SDL_Rect rect= {100,100,0,0};
-    //SDL_BlitSurface(buggen->getSurface() NULL, screen, &rect)
-    
-    SDL_Delay(5000); */
-    
-    
-    
+    engine.gameOver();
+	
     return 0;
 }

@@ -5,8 +5,9 @@
 
 namespace engine{
     
-    Bullet::Bullet(int x, int y, int w, int h, int value) : Sprite(x,y,w,h,speed), value(value){
-        addImage(new Image("/Users/mikaelrosquist/Documents/Mikael/Plugg/Year III/Prog3/Game/Image/bullet.png", true));
+    Bullet::Bullet(int x, int y, int direction, int speed) : Sprite(x,y,speed){
+        setDirection(direction);
+        addImage(new Image("../../../../../../Image/bullet.png", true));
     }
     
     void Bullet::draw() {
@@ -18,11 +19,11 @@ namespace engine{
     }
     
     void Bullet::tick() {
-        rect.y = rect.y -30;
+        rect.y += getSpeed();
+        
     }
-    
-    Bullet* Bullet :: getInstance(int x, int y, int w, int h, int value) {
-        return new Bullet(x,y,w,h,value);
+    Bullet* Bullet :: getInstance(int x, int y, int direction, int speed) {
+        return new Bullet(x,y,direction, speed);
     }
     
 }

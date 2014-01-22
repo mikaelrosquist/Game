@@ -12,12 +12,13 @@ namespace engine {
         Bullet ( Bullet& other); //Copy-konstruktorn läggs privat för att förhindra värdesemantik
         Bullet& operator= (Bullet& other); //Tilldelning läggs privat för att förhindra värdesemantik
         
+        
     protected:
-        Bullet(int x, int y, int w, int h, int value);//Konstruktor protected, bara subklasser har tillgång till den.
+        Bullet(int x, int y, int direction, int speed);//Konstruktor protected, bara subklasser har tillgång till den.
         
         
     public:
-        static Bullet* getInstance (int x, int y, int w, int h, int value);// För att förberda för subklasser av ship.
+        static Bullet* getInstance (int x, int y, int direction, int speed);// För att förberda för subklasser.
         ~Bullet();
         void tick();
         void draw();

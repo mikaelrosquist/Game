@@ -5,7 +5,7 @@
 namespace engine{
 	
     Globals::Globals() {
-	
+		
 	}
     
 	Globals::~Globals()
@@ -24,7 +24,7 @@ namespace engine{
         TTF_Init();
         fonten = TTF_OpenFont("/Library/Fonts/Arial Bold.ttf",20);
         
-        SDL_EnableKeyRepeat(1, 20);// Hålla ner tangenten så rör sig player objektet.
+        SDL_EnableKeyRepeat(SDL_DEFAULT_REPEAT_DELAY, SDL_DEFAULT_REPEAT_INTERVAL);// Hålla ner tangenten så rör sig player objektet.
         
     }
     

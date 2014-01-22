@@ -9,7 +9,7 @@
 namespace engine{
     
     class Text {
-   
+		
     public:
         void draw();
         std::string getText() const;
@@ -17,8 +17,7 @@ namespace engine{
         ~Text();
         Text(int x, int y, int w, int h, std::string txt);
         void setText(int newText);
-        const Text& operator+=(std::string other);
-    
+		
     private:
         Rectangle rect;
         std::string text;

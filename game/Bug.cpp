@@ -1,43 +1,75 @@
 #include "Bug.h"
 #include "Globals.h"
+#include "Bullet.h"
 
 namespace engine {
     
-    Bug::Bug(int x, int y, int w, int h, int value) : Sprite(x,y,w,h,speed), value(value){
+	Bug::Bug(int x, int y, int speed, int value, bool shoot) : Sprite(x,y,speed),value(value),shoot(shoot){
+	}
+	
+	void Bug::draw() {
+		
+		if(erased)// Om inte träffad, så ritar vi ut buggen.
+			return;
+		
+		if (shoot) {
+			SDL_BlitSurface(Sprite::images[1]->getSurface(), NULL,sys.screen, &rect);
+		} else
+			SDL_BlitSurface(Sprite::images[0]->getSurface(), NULL,sys.screen, &rect);
+	}
+	
+	Bug:: ~Bug() {
+		
+	}
+	
+	void Bug :: tick() {
+		/*if(erased)//Om träffad så gör vi inget( buggen rör sig inte)
+		 return;*/
+		
+		countStep++;
+		static int countShoot = 0;
+		countShoot++;
+		
+		// Hanterar rörels för hur bugs rör sig.
+		if(countStep == 50){
+			rect.y = rect.y+10;
+		} else if(countStep < 50) {
+			rect.x = rect.x +3;//rör sig steg åt höger.
+		}else if(countStep < 100) {
+			rect.x = rect.x -3;//rör sig steg åt vänster.
+		}else{
+			rect.y = rect.y +10;
+			countStep = 0;
+		}
+		
+		// Hanterar om bugs ska skjuta.
+		if(countShoot > 100 && shoot) {// om bug får skjuta.
+			Rectangle rectangel = rect.centeredRect(10,10);
+			Bullet* bull = Bullet::getInstance(rectangel.x, rectangel.y+20, DOWN, 10);//plusar på y led för att den inte ska kollidera med sig själv.
+			sys.level->addBullets(bull);// Lägger in den i vectorn.
+			countShoot = 0;
+		}
+		
+	}
+	
+    bool Bug::getErased() {
+        return erased;
     }
     
-    void Bug::draw() {
-        SDL_BlitSurface(Sprite::images[0]->getSurface(), NULL,sys.screen, &rect);
+    void Bug::setErased(bool erased) {
+        Bug::erased = erased;
+        shoot = false;
     }
     
-    Bug::~Bug() {
-        Sprite::~Sprite();
+    void Bug::setShoot(bool shoot) {
+        Bug::shoot = shoot;
     }
     
-    void Bug :: tick() {
-        countStep++;
-        
-        if(countStep == 70){ 
-            rect.y = rect.y+10;
-            
-        } else if(countStep < 70) {
-            rect.x = rect.x +3;//rör sig steg åt höger.
-            
-            
-        }else if(countStep < 140) {
-            rect.x = rect.x -3;//rör sig steg åt vänster.
-            
-        }else{
-            rect.y = rect.y +10;
-            countStep = 0;
-        }
-    }
-    
-    Bug* Bug :: getInstance(int x, int y, int w, int h, int value) {
-        return new Bug(x,y,w,h,value);
-    }
-    
-    int Bug::getValue(){
+    int Bug::getValue() {
         return value;
+    }
+    
+    Bug* Bug :: getInstance(int x, int y, int speed, int value, bool shoot) {
+        return new Bug(x,y,speed,value,shoot);
     }
 }

@@ -16,15 +16,12 @@ namespace engine {
         int countStep = 0;
         
     protected:
-        BigBug(int x, int y, int w, int h, int value);//Konstruktor protected, bara subklasser har tillgång till den.
-        
-        
+        BigBug(int x, int y, int speed, int value, bool shoot);//Konstruktor protected, bara subklasser har tillgång till den.
     public:
-        static BigBug* getInstance (int x, int y, int w, int h, int value);// För att förbereda för subklasser av bigbug.
+        static BigBug* getInstance (int x, int y, int speed, int value, bool shoot);// För att förbereda för subklasser av bigbug.
         ~BigBug();
-        void tick();
-        void draw();
-        int getValue();
+        //void tick();
+        //void draw();
     };
 }
 

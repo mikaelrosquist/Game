@@ -4,26 +4,26 @@
 #include <iostream>
 #include <SDL/SDL.h>
 #include "Bug.h"
+#include "Frame.h"
 
 namespace engine {
     
     class MinBug: public Bug {
     private:
         int value;
-        MinBug ( MinBug& other); //Copy-konstruktorn läggs privat för att förhindra värdesemantik
+        MinBug (MinBug& other); //Copy-konstruktorn läggs privat för att förhindra värdesemantik
         MinBug& operator= (Bug& other); //Tilldelning läggs privat för att förhindra värdesemantik
         int countStep = 0;
         
     protected:
-        MinBug(int x, int y, int w, int h, int value);//Konstruktor protected, bara subklasser har tillgång till den.
+        MinBug(int x, int y, int speed, int value,bool shoot);//Konstruktor protected, bara subklasser har tillgång till den.
         
         
     public:
-        static MinBug* getInstance (int x, int y, int w, int h, int value);// För att förberda för subklasser av Minbug.
+        static MinBug* getInstance (int x, int y, int speed, int value, bool shoot);// För att förberda för subklasser av Minbug.
         ~MinBug();
-        void tick();
-        void draw();
-        int getValue();
+        //void tick();
+        //void draw();
     };
 }
 #endif /* defined(__Game__MinBug__) */

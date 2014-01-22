@@ -11,9 +11,10 @@ namespace engine{
     public:
         GameEngine();
         ~GameEngine();
-        void run();//Själva händelsloopen.
+        bool run();//Själva händelsloopen.
         void init(); //Fyller comps med Sprite
         void setFrame(Frame* ny);
+        void gameOver();
         
     private:
         

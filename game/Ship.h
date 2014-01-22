@@ -15,11 +15,11 @@ namespace engine {
         
         
     protected:
-        Ship(int x, int y, int w, int h, int value);//Konstruktor protected, bara subklasser har tillgång till den.
+        Ship(int x, int y, int speed, int value,bool shoot);//Konstruktor protected, bara subklasser har tillgång till den.
         
         
     public:
-        static Ship* getInstance (int x, int y, int w, int h, int value);// För att förberda för subklasser av ship.
+        static Ship* getInstance (int x, int y, int speed, int value, bool shoot);// För att förberda för subklasser av ship.
         ~Ship();
         void tick();
         void draw();

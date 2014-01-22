@@ -15,17 +15,6 @@ namespace engine {
     
     Image::~Image() {
         SDL_FreeSurface(img);
-        
-    }
-    
-    int Image::getWidth() {
-        w = (buf[16]<<24) + (buf[17]<<16) + (buf[18]<<8) + (buf[19]<<0);
-        return w;
-    }
-    
-    int Image::getHeight() {
-        h = (buf[20]<<24) + (buf[21]<<16) + (buf[22]<<8) + (buf[23]<<0);
-        return h;
     }
     
     SDL_Surface* Image::getSurface() const {
@@ -33,5 +22,10 @@ namespace engine {
         return img;
     }
     
-
+    int Image:: getWidth() const {
+        return getSurface()->w;
+    }
+    int Image:: getHight() const {
+        return getSurface()->h;
+    }
 }

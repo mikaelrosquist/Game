@@ -7,10 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		730D62B91887FC0500934473 /* SDL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 730D62B51887FC0500934473 /* SDL.framework */; };
-		730D62C518880AF500934473 /* SDL_image.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 730D62C218880AF500934473 /* SDL_image.framework */; };
-		730D62C618880AF500934473 /* SDL_mixer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 730D62C318880AF500934473 /* SDL_mixer.framework */; };
-		730D62C718880AF500934473 /* SDL_ttf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 730D62C418880AF500934473 /* SDL_ttf.framework */; };
+		6F0A5FA4188EB12200D3F035 /* SDL_image.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F0A5FA0188EB12200D3F035 /* SDL_image.framework */; };
+		6F0A5FA5188EB12200D3F035 /* SDL_mixer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F0A5FA1188EB12200D3F035 /* SDL_mixer.framework */; };
+		6F0A5FA6188EB12200D3F035 /* SDL_ttf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F0A5FA2188EB12200D3F035 /* SDL_ttf.framework */; };
+		6F0A5FA7188EB12200D3F035 /* SDL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F0A5FA3188EB12200D3F035 /* SDL.framework */; };
+		6F0A5FB6188EC61600D3F035 /* Test.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F0A5FB4188EC61600D3F035 /* Test.cpp */; };
 		730D62C918880B5100934473 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 730D62C818880B5100934473 /* Cocoa.framework */; };
 		730D62E71888135400934473 /* BigBug.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 730D62CA1888135300934473 /* BigBug.cpp */; };
 		730D62E81888135400934473 /* Bug.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 730D62CC1888135300934473 /* Bug.cpp */; };
@@ -43,11 +44,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		6F0A5FA0188EB12200D3F035 /* SDL_image.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SDL_image.framework; sourceTree = "<group>"; };
+		6F0A5FA1188EB12200D3F035 /* SDL_mixer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SDL_mixer.framework; sourceTree = "<group>"; };
+		6F0A5FA2188EB12200D3F035 /* SDL_ttf.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SDL_ttf.framework; sourceTree = "<group>"; };
+		6F0A5FA3188EB12200D3F035 /* SDL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SDL.framework; sourceTree = "<group>"; };
+		6F0A5FB4188EC61600D3F035 /* Test.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Test.cpp; sourceTree = "<group>"; };
+		6F0A5FB5188EC61600D3F035 /* Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
 		730D62771887FA8C00934473 /* Game */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Game; sourceTree = BUILT_PRODUCTS_DIR; };
-		730D62B51887FC0500934473 /* SDL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL.framework; path = ../../../../../../../../Library/Frameworks/SDL.framework; sourceTree = "<group>"; };
-		730D62C218880AF500934473 /* SDL_image.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL_image.framework; path = ../../../../../../../../Library/Frameworks/SDL_image.framework; sourceTree = "<group>"; };
-		730D62C318880AF500934473 /* SDL_mixer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL_mixer.framework; path = ../../../../../../../../Library/Frameworks/SDL_mixer.framework; sourceTree = "<group>"; };
-		730D62C418880AF500934473 /* SDL_ttf.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL_ttf.framework; path = ../../../../../../../../Library/Frameworks/SDL_ttf.framework; sourceTree = "<group>"; };
 		730D62C818880B5100934473 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		730D62CA1888135300934473 /* BigBug.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BigBug.cpp; sourceTree = "<group>"; };
 		730D62CB1888135300934473 /* BigBug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BigBug.h; sourceTree = "<group>"; };
@@ -62,20 +65,20 @@
 		730D62D41888135300934473 /* Globals.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Globals.cpp; sourceTree = "<group>"; };
 		730D62D51888135300934473 /* Globals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Globals.h; sourceTree = "<group>"; };
 		730D62D61888135300934473 /* Image.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Image.cpp; sourceTree = "<group>"; };
-		730D62D71888135300934473 /* Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Image.h; sourceTree = "<group>"; };
+		730D62D71888135300934473 /* Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Image.h; path = ../../../../Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Image.h; sourceTree = DEVELOPER_DIR; };
 		730D62D81888135300934473 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		730D62D91888135300934473 /* MedBug.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MedBug.cpp; sourceTree = "<group>"; };
 		730D62DA1888135300934473 /* MedBug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MedBug.h; sourceTree = "<group>"; };
 		730D62DB1888135300934473 /* MinBug.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MinBug.cpp; sourceTree = "<group>"; };
 		730D62DC1888135300934473 /* MinBug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MinBug.h; sourceTree = "<group>"; };
-		730D62DD1888135300934473 /* Player.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Player.cpp; sourceTree = "<group>"; };
-		730D62DE1888135300934473 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		730D62DD1888135300934473 /* Player.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Player.cpp; path = ../../../../Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Player.cpp; sourceTree = DEVELOPER_DIR; };
+		730D62DE1888135300934473 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Player.h; path = ../../../../Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Player.h; sourceTree = DEVELOPER_DIR; };
 		730D62DF1888135400934473 /* Rectangle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Rectangle.cpp; sourceTree = "<group>"; };
 		730D62E01888135400934473 /* Rectangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Rectangle.h; sourceTree = "<group>"; };
 		730D62E11888135400934473 /* Ship.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Ship.cpp; sourceTree = "<group>"; };
 		730D62E21888135400934473 /* Ship.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ship.h; sourceTree = "<group>"; };
-		730D62E31888135400934473 /* Sprite.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Sprite.cpp; sourceTree = "<group>"; };
-		730D62E41888135400934473 /* Sprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sprite.h; sourceTree = "<group>"; };
+		730D62E31888135400934473 /* Sprite.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Sprite.cpp; path = ../../../../Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Sprite.cpp; sourceTree = DEVELOPER_DIR; };
+		730D62E41888135400934473 /* Sprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Sprite.h; path = ../../../../Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Sprite.h; sourceTree = DEVELOPER_DIR; };
 		730D62E51888135400934473 /* Text.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Text.cpp; sourceTree = "<group>"; };
 		730D62E61888135400934473 /* Text.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Text.h; sourceTree = "<group>"; };
 		730D62F6188815C400934473 /* SDLMain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDLMain.h; sourceTree = "<group>"; };
@@ -87,31 +90,40 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F0A5FA4188EB12200D3F035 /* SDL_image.framework in Frameworks */,
+				6F0A5FA6188EB12200D3F035 /* SDL_ttf.framework in Frameworks */,
+				6F0A5FA7188EB12200D3F035 /* SDL.framework in Frameworks */,
 				730D62C918880B5100934473 /* Cocoa.framework in Frameworks */,
-				730D62C518880AF500934473 /* SDL_image.framework in Frameworks */,
-				730D62C618880AF500934473 /* SDL_mixer.framework in Frameworks */,
-				730D62C718880AF500934473 /* SDL_ttf.framework in Frameworks */,
-				730D62B91887FC0500934473 /* SDL.framework in Frameworks */,
+				6F0A5FA5188EB12200D3F035 /* SDL_mixer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6FA86D8C188EA81F005C7C20 /* Framworks */ = {
+			isa = PBXGroup;
+			children = (
+				6F0A5FA0188EB12200D3F035 /* SDL_image.framework */,
+				6F0A5FA1188EB12200D3F035 /* SDL_mixer.framework */,
+				6F0A5FA2188EB12200D3F035 /* SDL_ttf.framework */,
+				6F0A5FA3188EB12200D3F035 /* SDL.framework */,
+				730D62C818880B5100934473 /* Cocoa.framework */,
+			);
+			name = Framworks;
+			sourceTree = "<group>";
+		};
 		730D626E1887FA8C00934473 = {
 			isa = PBXGroup;
 			children = (
 				730D62F6188815C400934473 /* SDLMain.h */,
 				730D62F7188815C400934473 /* SDLMain.m */,
-				730D62C818880B5100934473 /* Cocoa.framework */,
-				730D62B51887FC0500934473 /* SDL.framework */,
-				730D62C218880AF500934473 /* SDL_image.framework */,
-				730D62C318880AF500934473 /* SDL_mixer.framework */,
-				730D62C418880AF500934473 /* SDL_ttf.framework */,
+				6FA86D8C188EA81F005C7C20 /* Framworks */,
 				730D62781887FA8C00934473 /* Products */,
 				730D62791887FA8C00934473 /* Game */,
 			);
 			sourceTree = "<group>";
+			usesTabs = 1;
 		};
 		730D62781887FA8C00934473 /* Products */ = {
 			isa = PBXGroup;
@@ -132,10 +144,11 @@
 				730D62D41888135300934473 /* Globals.cpp */,
 				730D62D61888135300934473 /* Image.cpp */,
 				730D62DF1888135400934473 /* Rectangle.cpp */,
+				6F0A5FB4188EC61600D3F035 /* Test.cpp */,
 				730D62E51888135400934473 /* Text.cpp */,
 			);
 			path = Game;
-			sourceTree = "<group>";
+			sourceTree = SOURCE_ROOT;
 		};
 		730D62F91888169A00934473 /* headers */ = {
 			isa = PBXGroup;
@@ -149,10 +162,11 @@
 				730D62D71888135300934473 /* Image.h */,
 				730D62DA1888135300934473 /* MedBug.h */,
 				730D62DC1888135300934473 /* MinBug.h */,
+				730D62E41888135400934473 /* Sprite.h */,
 				730D62DE1888135300934473 /* Player.h */,
 				730D62E01888135400934473 /* Rectangle.h */,
 				730D62E21888135400934473 /* Ship.h */,
-				730D62E41888135400934473 /* Sprite.h */,
+				6F0A5FB5188EC61600D3F035 /* Test.h */,
 				730D62E61888135400934473 /* Text.h */,
 			);
 			name = headers;
@@ -232,6 +246,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				730D62F8188815C400934473 /* SDLMain.m in Sources */,
 				730D62E81888135400934473 /* Bug.cpp in Sources */,
 				730D62F41888135400934473 /* Sprite.cpp in Sources */,
 				730D62EE1888135400934473 /* main.cpp in Sources */,
@@ -240,11 +255,11 @@
 				730D62EF1888135400934473 /* MedBug.cpp in Sources */,
 				730D62EC1888135400934473 /* Globals.cpp in Sources */,
 				730D62F01888135400934473 /* MinBug.cpp in Sources */,
+				6F0A5FB6188EC61600D3F035 /* Test.cpp in Sources */,
 				730D62F21888135400934473 /* Rectangle.cpp in Sources */,
 				730D62F11888135400934473 /* Player.cpp in Sources */,
 				730D62ED1888135400934473 /* Image.cpp in Sources */,
 				730D62EA1888135400934473 /* Frame.cpp in Sources */,
-				730D62F8188815C400934473 /* SDLMain.m in Sources */,
 				730D62E91888135400934473 /* Bullet.cpp in Sources */,
 				730D62F51888135400934473 /* Text.cpp in Sources */,
 				730D62F31888135400934473 /* Ship.cpp in Sources */,
@@ -331,6 +346,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+					/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game,
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -345,6 +361,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+					/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game,
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -369,6 +386,7 @@
 				730D62821887FA8C00934473 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

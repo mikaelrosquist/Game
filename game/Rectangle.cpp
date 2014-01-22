@@ -1,5 +1,4 @@
 #include "Rectangle.h"
-#include "Image.h"
 
 namespace engine{
     
@@ -11,10 +10,6 @@ namespace engine{
         x = xx; y = yy; w = ww; h = hh;
     }
     
-//    Rectangle::~Rectangle(){
-        
-//    }
-    
     bool Rectangle::contains(int xx, int yy) const{
         return xx >= x && xx <= x + w && yy >= y && yy <= y + h;
     }
@@ -23,8 +18,7 @@ namespace engine{
         return Rectangle(x + w/2 - width/2, y + h/2 - height/2, width, height);
     }
     
-    bool Rectangle::overlaps(Rectangle other){
-        
+    bool Rectangle::overlaps(const Rectangle& other) const{
         int left1   = x;
         int left2   = other.x;
         int right1  = x + w;
@@ -42,4 +36,12 @@ namespace engine{
         
         return true;
     }
-} // cwing
+    
+    std::ostream& operator<< (std::ostream &out, Rectangle &cPoint)
+    {
+        out << "(" << cPoint.x << ", " <<
+        cPoint.y << ")";
+        return out;
+    }
+    
+}

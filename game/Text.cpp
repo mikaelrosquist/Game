@@ -7,7 +7,7 @@ using namespace std;
 namespace engine{
     
     // Vilken font,texten och färgen till surfacen.
-    Text::Text(int x, int y, int w, int h, string t): rect(x,y,w,h), text(t) {
+    Text::Text(int x, int y, int w, int h, string txt): rect(x,y,w,h), text(txt) {
         color = {255,255,255};
         resultatyta = TTF_RenderText_Solid(sys.fonten, text.c_str(), color);
     }
@@ -20,14 +20,9 @@ namespace engine{
     }
     
     Text::~Text(){
-      //  SDL_FreeSurface(resultatyta);
+        SDL_FreeSurface(resultatyta);
     }
     
-  /*  const Text& Text::operator+=(std::string other){
-        text += other;
-        return *this;
-    }
-   */
     string Text::getText() const {
         return text;
     }
@@ -41,8 +36,12 @@ namespace engine{
     
     void Text::setText(int newText) {
         value = to_string(newText);
+        string txt = text + " " + value;
         SDL_FreeSurface(resultatyta);
-        resultatyta = TTF_RenderText_Solid(sys.fonten, value.c_str(), color);
+        resultatyta = TTF_RenderText_Solid(sys.fonten, txt.c_str(), color);
         draw();
     }
+	
+	
+    
 }

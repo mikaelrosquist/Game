@@ -4,28 +4,25 @@
 
 namespace engine{
     
-    MinBug::MinBug(int x, int y, int w, int h, int value) : Bug(x,y,w,h,value){
-        addImage(new Image("/Users/mikaelrosquist/Documents/Mikael/Plugg/Year III/Prog3/Game/Image/MinBug1.png", true));
+    MinBug::MinBug(int x, int y, int speed, int value, bool shoot) : Bug(x,y, speed,value,shoot){
+        addImage(new Image("../../../../../../Image/MinBug1.png", true));
+        addImage(new Image("../../../../../../Image/Ship_red.png", true));
     }
     
-    void MinBug::draw() {
-		SDL_BlitSurface(Sprite::images[0]->getSurface(),NULL ,sys.screen, &rect);
-	}
+    /*void MinBug::draw() {
+	 SDL_BlitSurface(Sprite::images[0]->getSurface(),NULL ,sys.screen, &rect);
+	 }*/
     
     MinBug:: ~MinBug() {
-        Bug::~Bug();
+        
     }
     
-    void MinBug::tick() {
-        Bug::tick();
-    }
-
-    MinBug* MinBug :: getInstance(int x, int y, int w, int h, int value) {
-        return new MinBug(x,y,w,h,value);
-    }
-    
-    int MinBug::getValue(){
-        return value;
+    /*void MinBug::tick() {
+	 Bug::tick();
+	 }*/
+	
+    MinBug* MinBug :: getInstance(int x, int y, int speed, int value, bool shoot) {
+        return new MinBug(x,y,speed,value,shoot);
     }
     
 }

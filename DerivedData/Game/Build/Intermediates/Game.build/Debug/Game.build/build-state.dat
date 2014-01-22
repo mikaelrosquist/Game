@@ -1,0 +1,1895 @@
+TGame
+v6
+r1
+cCheck dependencies
+cCompileC DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/SDLMain.o /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/SDLMain.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/Bug.o /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Bug.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/Sprite.o /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Sprite.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/main.o /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/BigBug.o /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/BigBug.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/GameEngine.o /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/GameEngine.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/MedBug.o /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/MedBug.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/Globals.o /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Globals.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/MinBug.o /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/MinBug.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/Test.o /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Test.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/Rectangle.o /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Rectangle.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/Player.o /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Player.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/Image.o /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Image.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/Frame.o /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Frame.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/Bullet.o /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Bullet.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/Text.o /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Text.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/Ship.o /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Ship.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Products/Debug/Game normal x86_64
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk
+c00000000528288FB00000000000000AA
+t1384286459
+s170
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/SDKSettings.plist
+c000000005267145C000000000000044C
+t1382487132
+s1100
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/CoreServices/SystemVersion.plist
+c000000005267145C00000000000001DB
+t1382487132
+s475
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/AppKit.framework/AppKit
+c000000005267145C00000000002682C8
+t1382487132
+s2523848
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/ApplicationServices
+c000000005267145C0000000000007D5C
+t1382487132
+s32092
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ATS.framework/Versions/A/ATS
+c000000005267145C0000000000020D64
+t1382487132
+s134500
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ColorSync.framework/Versions/A/ColorSync
+c000000005267145C000000000001B3B8
+t1382487132
+s111544
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/HIServices.framework/Versions/A/HIServices
+c000000005267145C0000000000034F94
+t1382487132
+s216980
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/LangAnalysis.framework/Versions/A/LangAnalysis
+c000000005267145C000000000000CB08
+t1382487132
+s51976
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/PrintCore.framework/Versions/A/PrintCore
+c000000005267145C000000000002C5F4
+t1382487132
+s181748
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/QD.framework/Versions/A/QD
+c000000005267145C000000000002B9A8
+t1382487132
+s178600
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/SpeechSynthesis.framework/Versions/A/SpeechSynthesis
+c000000005267145C0000000000011EF8
+t1382487132
+s73464
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+c000000005267145C0000000000059898
+t1382487132
+s366744
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000005267145C000000000000253C
+t1382487132
+s9532
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreData.framework/CoreData
+c000000005267145C000000000004C7C4
+t1382487132
+s313284
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+c000000005267145C0000000000085C78
+t1382487132
+s547960
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000005267145C000000000008B2C4
+t1382487132
+s570052
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/CoreServices
+c000000005267145C000000000000979C
+t1382487132
+s38812
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/AE.framework/Versions/A/AE
+c000000005267145C00000000000223B4
+t1382487132
+s140212
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/CarbonCore.framework/Versions/A/CarbonCore
+c000000005267145C0000000000071A98
+t1382487132
+s465560
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/DictionaryServices.framework/Versions/A/DictionaryServices
+c000000005267145C0000000000017E1C
+t1382487132
+s97820
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/LaunchServices.framework/Versions/A/LaunchServices
+c000000005267145C000000000004F094
+t1382487132
+s323732
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Metadata
+c000000005267145C000000000003AA44
+t1382487132
+s240196
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/OSServices.framework/Versions/A/OSServices
+c000000005267145C00000000000383CC
+t1382487132
+s230348
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/SearchKit.framework/Versions/A/SearchKit
+c000000005267145C000000000001B66C
+t1382487132
+s112236
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreText.framework/CoreText
+c000000005267145C0000000000030444
+t1382487132
+s197700
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000005267145C00000000000C9E68
+t1382487132
+s826984
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ImageIO.framework/ImageIO
+c000000005267145C00000000000394F8
+t1382487132
+s234744
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libSystem.dylib
+c000000005267145F000000000000681C
+t1382487135
+s26652
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libc++.dylib
+c000000005267145F000000000006E8B0
+t1382487135
+s452784
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libobjc.dylib
+c000000005267145F0000000000014EF8
+t1382487135
+s85752
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcache.dylib
+c000000005267145F0000000000004734
+t1382487135
+s18228
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcommonCrypto.dylib
+c000000005267145F000000000000FC6C
+t1382487135
+s64620
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcompiler_rt.dylib
+c000000005267145F000000000000F6A0
+t1382487135
+s63136
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcopyfile.dylib
+c000000005267145F0000000000006254
+t1382487135
+s25172
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcorecrypto.dylib
+c000000005267145F000000000000E0F8
+t1382487135
+s57592
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libdispatch.dylib
+c000000005267145F000000000000D6DC
+t1382487135
+s55004
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libdyld.dylib
+c000000005267145F0000000000006308
+t1382487135
+s25352
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libkeymgr.dylib
+c000000005267145F0000000000004050
+t1382487135
+s16464
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/liblaunch.dylib
+c000000005267145F0000000000008570
+t1382487135
+s34160
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libmacho.dylib
+c000000005267145F0000000000005EA0
+t1382487135
+s24224
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libquarantine.dylib
+c000000005267145F0000000000005FAC
+t1382487135
+s24492
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libremovefile.dylib
+c000000005267145F0000000000004440
+t1382487135
+s17472
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_asl.dylib
+c000000005267145F000000000000AA28
+t1382487135
+s43560
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_blocks.dylib
+c000000005267145F0000000000003E2C
+t1382487135
+s15916
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_c.dylib
+c000000005267145F0000000000030A24
+t1382487135
+s199204
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_configuration.dylib
+c000000005267145F0000000000005E54
+t1382487135
+s24148
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_dnssd.dylib
+c000000005267145F0000000000006A90
+t1382487135
+s27280
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_info.dylib
+c000000005267145F00000000000178AC
+t1382487135
+s96428
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_kernel.dylib
+c000000005267145F000000000001ADC8
+t1382487135
+s110024
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_m.dylib
+c000000005267145F000000000001028C
+t1382487135
+s66188
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_malloc.dylib
+c000000005267145F0000000000008800
+t1382487135
+s34816
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_network.dylib
+c000000005267145F0000000000011090
+t1382487135
+s69776
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_notify.dylib
+c000000005267145F000000000000882C
+t1382487135
+s34860
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_platform.dylib
+c000000005267145F00000000000067AC
+t1382487135
+s26540
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_pthread.dylib
+c000000005267145F0000000000008DEC
+t1382487135
+s36332
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_sandbox.dylib
+c000000005267145F0000000000004C08
+t1382487135
+s19464
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_stats.dylib
+c000000005267145F00000000000023C0
+t1382487135
+s9152
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libunc.dylib
+c000000005267145F000000000000439C
+t1382487135
+s17308
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libunwind.dylib
+c000000005267145F0000000000006768
+t1382487135
+s26472
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libxpc.dylib
+c000000005267145F00000000000172F4
+t1382487135
+s94964
+
+N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.0/lib/darwin/libclang_rt.osx.a
+c00000000526714650000000000001750
+t1382487141
+s5968
+
+N/Library/Frameworks/SDL.framework/Headers/SDL.h
+c000000004F17A7BF0000000000000CA1
+t1326950335
+s3233
+
+N/Library/Frameworks/SDL.framework/Headers/SDL_active.h
+c000000004F17A7BF000000000000078D
+t1326950335
+s1933
+
+N/Library/Frameworks/SDL.framework/Headers/SDL_audio.h
+c000000004F17A7BF0000000000002BCF
+t1326950335
+s11215
+
+N/Library/Frameworks/SDL.framework/Headers/SDL_cdrom.h
+c000000004F17A7BF00000000000017A0
+t1326950335
+s6048
+
+N/Library/Frameworks/SDL.framework/Headers/SDL_config.h
+c000000004F17A7BF00000000000005C2
+t1326950335
+s1474
+
+N/Library/Frameworks/SDL.framework/Headers/SDL_config_macosx.h
+c000000004F17A7BF0000000000001061
+t1326950335
+s4193
+
+N/Library/Frameworks/SDL.framework/Headers/SDL_cpuinfo.h
+c000000004F17A7BF00000000000008AD
+t1326950335
+s2221
+
+N/Library/Frameworks/SDL.framework/Headers/SDL_endian.h
+c000000004F17A7BF00000000000017A2
+t1326950335
+s6050
+
+N/Library/Frameworks/SDL.framework/Headers/SDL_error.h
+c000000004F17A7BF0000000000000752
+t1326950335
+s1874
+
+N/Library/Frameworks/SDL.framework/Headers/SDL_events.h
+c000000004F17A7BF00000000000032F1
+t1326950335
+s13041
+
+N/Library/Frameworks/SDL.framework/Headers/SDL_joystick.h
+c000000004F17A7BF000000000000159C
+t1326950335
+s5532
+
+N/Library/Frameworks/SDL.framework/Headers/SDL_keyboard.h
+c000000004F17A7BF0000000000001002
+t1326950335
+s4098
+
+N/Library/Frameworks/SDL.framework/Headers/SDL_keysym.h
+c000000004F17A7BF0000000000001D44
+t1326950335
+s7492
+
+N/Library/Frameworks/SDL.framework/Headers/SDL_loadso.h
+c000000004F17A7BF0000000000000AB3
+t1326950335
+s2739
+
+N/Library/Frameworks/SDL.framework/Headers/SDL_main.h
+c000000004F17A7BF0000000000000B32
+t1326950335
+s2866
+
+N/Library/Frameworks/SDL.framework/Headers/SDL_mouse.h
+c000000004F17A7BF0000000000001292
+t1326950335
+s4754
+
+N/Library/Frameworks/SDL.framework/Headers/SDL_mutex.h
+c000000004F17A7BF00000000000016E4
+t1326950335
+s5860
+
+N/Library/Frameworks/SDL.framework/Headers/SDL_platform.h
+c000000004F17A7BF0000000000000A94
+t1326950335
+s2708
+
+N/Library/Frameworks/SDL.framework/Headers/SDL_quit.h
+c000000004F17A7BF00000000000007D9
+t1326950335
+s2009
+
+N/Library/Frameworks/SDL.framework/Headers/SDL_rwops.h
+c000000004F17A7BF000000000000135E
+t1326950335
+s4958
+
+N/Library/Frameworks/SDL.framework/Headers/SDL_stdinc.h
+c000000004F17A7BF0000000000004059
+t1326950335
+s16473
+
+N/Library/Frameworks/SDL.framework/Headers/SDL_thread.h
+c000000004F17A7BF0000000000001092
+t1326950335
+s4242
+
+N/Library/Frameworks/SDL.framework/Headers/SDL_timer.h
+c000000004F17A7BF00000000000011AF
+t1326950335
+s4527
+
+N/Library/Frameworks/SDL.framework/Headers/SDL_version.h
+c000000004F17A7BF0000000000000A4D
+t1326950335
+s2637
+
+N/Library/Frameworks/SDL.framework/Headers/SDL_video.h
+c000000004F17A7BF0000000000009482
+t1326950335
+s38018
+
+N/Library/Frameworks/SDL.framework/Headers/begin_code.h
+c000000004F17A7BF000000000000146E
+t1326950335
+s5230
+
+N/Library/Frameworks/SDL.framework/Headers/close_code.h
+c000000004F17A7BF00000000000005CA
+t1326950335
+s1482
+
+N/Library/Frameworks/SDL.framework/SDL
+c000000004F17A7BF00000000000B66C8
+t1326950335
+s747208
+
+N/Library/Frameworks/SDL_image.framework/Headers/SDL_image.h
+c000000004F1A19B90000000000001599
+t1327110585
+s5529
+
+N/Library/Frameworks/SDL_image.framework/SDL_image
+c000000004F1A19B900000000000123F0
+t1327110585
+s74736
+
+N/Library/Frameworks/SDL_mixer.framework/SDL_mixer
+c000000004F12FB37000000000004A6E4
+t1326644023
+s304868
+
+N/Library/Frameworks/SDL_ttf.framework/Headers/SDL_ttf.h
+c000000004F12FB7D00000000000029E3
+t1326644093
+s10723
+
+N/Library/Frameworks/SDL_ttf.framework/SDL_ttf
+c000000004F12FB7D000000000000CD4C
+t1326644093
+s52556
+
+N/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/BigBug.o
+t1390317341
+s37700
+
+N/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/Bug.o
+t1390317222
+s38272
+
+N/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/Bullet.o
+t1390317222
+s37928
+
+N/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/Frame.o
+t1390317222
+s226504
+
+N/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/Game.LinkFileList
+c0000000052DE8EA50000000000000A7A
+t1390317221
+s2682
+
+N/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/GameEngine.o
+t1390317222
+s122244
+
+N/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/Globals.o
+t1390317222
+s76408
+
+N/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/Image.o
+t1390317222
+s9656
+
+N/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/MedBug.o
+t1390317342
+s37700
+
+N/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/MinBug.o
+t1390317342
+s37700
+
+N/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/Player.o
+t1390317222
+s39300
+
+N/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/Rectangle.o
+t1390317222
+s73868
+
+N/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/SDLMain.o
+t1390315843
+s48984
+
+N/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/Ship.o
+t1390317342
+s39224
+
+N/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/Sprite.o
+t1390317222
+s77632
+
+N/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/Test.o
+t1390317222
+s37676
+
+N/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/Text.o
+t1390317222
+s59772
+
+N/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/main.o
+t1390317222
+s170640
+
+N/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Products/Debug/Game
+t1390317342
+s128644
+
+N/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/BigBug.cpp
+c0000000052DE8F1D0000000000000359
+t1390317341
+s857
+
+N/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/BigBug.h
+c0000000052DE8EA4000000000000034A
+t1390317220
+s842
+
+N/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Bug.cpp
+c0000000052DE8EA500000000000006F8
+t1390317221
+s1784
+
+N/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Bug.h
+c0000000052DE8EA500000000000003EC
+t1390317221
+s1004
+
+N/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Bullet.cpp
+c0000000052DE8EA50000000000000288
+t1390317221
+s648
+
+N/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Bullet.h
+c0000000052DE8EA50000000000000331
+t1390317221
+s817
+
+N/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Frame.cpp
+c0000000052DE8EA50000000000000F53
+t1390317221
+s3923
+
+N/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Frame.h
+c0000000052DE8EA50000000000000587
+t1390317221
+s1415
+
+N/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/GameEngine.cpp
+c0000000052DE8EA5000000000000094D
+t1390317221
+s2381
+
+N/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/GameEngine.h
+c0000000052DE8EA500000000000002B0
+t1390317221
+s688
+
+N/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Globals.cpp
+c0000000052DE8EA500000000000002DC
+t1390317221
+s732
+
+N/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Globals.h
+c0000000052DE8EA50000000000000247
+t1390317221
+s583
+
+N/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Image.cpp
+c0000000052DE8EA500000000000002DE
+t1390317221
+s734
+
+N/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Image.h
+c0000000052DE8EA500000000000001E1
+t1390317221
+s481
+
+N/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/MedBug.cpp
+c0000000052DE8F1D00000000000002BA
+t1390317341
+s698
+
+N/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/MedBug.h
+c0000000052DE8EA5000000000000035E
+t1390317221
+s862
+
+N/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/MinBug.cpp
+c0000000052DE8F1D00000000000002BE
+t1390317341
+s702
+
+N/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/MinBug.h
+c0000000052DE8EA5000000000000036A
+t1390317221
+s874
+
+N/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Player.cpp
+c0000000052DE8EA50000000000000476
+t1390317221
+s1142
+
+N/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Player.h
+c0000000052DE8EA5000000000000038E
+t1390317221
+s910
+
+N/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Rectangle.cpp
+c0000000052DE8EA500000000000004BE
+t1390317221
+s1214
+
+N/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Rectangle.h
+c0000000052DE8EA500000000000001DF
+t1390317221
+s479
+
+N/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Ship.cpp
+c0000000052DE8F1D000000000000033B
+t1390317341
+s827
+
+N/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Ship.h
+c0000000052DE8EA50000000000000356
+t1390317221
+s854
+
+N/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Sprite.cpp
+c0000000052DE8EA5000000000000059A
+t1390317221
+s1434
+
+N/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Sprite.h
+c0000000052DE8EA50000000000000571
+t1390317221
+s1393
+
+N/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Test.cpp
+c0000000052DE8EA40000000000000268
+t1390317220
+s616
+
+N/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Test.h
+c0000000052B2838E00000000000002EF
+t1387430798
+s751
+
+N/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Text.cpp
+c0000000052DE8EA500000000000004E2
+t1390317221
+s1250
+
+N/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Text.h
+c0000000052DE8EA50000000000000254
+t1390317221
+s596
+
+N/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/main.cpp
+c0000000052DE8EA50000000000000899
+t1390317221
+s2201
+
+N/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/SDL.framework/SDL
+c000000004F17A7BF00000000000B66C8
+t1326950335
+s747208
+
+N/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/SDLMain.h
+c0000000052DE5E650000000000000176
+t1390304869
+s374
+
+N/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/SDLMain.m
+c0000000052DE66A50000000000002C27
+t1390306981
+s11303
+
+N/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/SDL_image.framework/SDL_image
+c000000004F1A19B900000000000123F0
+t1327110585
+s74736
+
+N/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/SDL_mixer.framework/SDL_mixer
+c000000004F12FB37000000000004A6E4
+t1326644023
+s304868
+
+N/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/SDL_ttf.framework/SDL_ttf
+c000000004F12FB7D000000000000CD4C
+t1326644093
+s52556
+
+CBuild AST from /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/BigBug.cpp
+r0
+
+CBuild AST from /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Bug.cpp
+r0
+
+CBuild AST from /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Bullet.cpp
+r0
+
+CBuild AST from /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Frame.cpp
+r0
+
+CBuild AST from /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/GameEngine.cpp
+r0
+
+CBuild AST from /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Globals.cpp
+r0
+
+CBuild AST from /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Image.cpp
+r0
+
+CBuild AST from /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/MedBug.cpp
+r0
+
+CBuild AST from /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/MinBug.cpp
+r0
+
+CBuild AST from /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Player.cpp
+r0
+
+CBuild AST from /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Rectangle.cpp
+r0
+
+CBuild AST from /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Ship.cpp
+r0
+
+CBuild AST from /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Sprite.cpp
+r0
+
+CBuild AST from /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Test.cpp
+r0
+
+CBuild AST from /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Text.cpp
+r0
+
+CBuild AST from /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/main.cpp
+r0
+
+CBuild AST from /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/SDLMain.m
+r0
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesc5c703dbf48fb841^01f70cdbf48fb841^---0#1#1#--18"Check dependencies36"1DBAF50B-5E14-49A0-A682-6EEC6BEECA39-
+
+CCompileC DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/BigBug.o /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/BigBug.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s412010141.376235
+e412010141.882655
+r1
+xCompileC
+xDerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/BigBug.o
+x/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/BigBug.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/BigBug.cpp
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/BigBug.h
+d/Library/Frameworks/SDL.framework/Headers/SDL.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_main.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_stdinc.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_config.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_platform.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_config_macosx.h
+d/Library/Frameworks/SDL.framework/Headers/begin_code.h
+d/Library/Frameworks/SDL.framework/Headers/close_code.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_audio.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_error.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_endian.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_mutex.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_thread.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_rwops.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_cdrom.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_cpuinfo.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_events.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_active.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_keyboard.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_keysym.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_mouse.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_video.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_joystick.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_quit.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_loadso.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_timer.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_version.h
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Bug.h
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Sprite.h
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Image.h
+d/Library/Frameworks/SDL_image.framework/Headers/SDL_image.h
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Rectangle.h
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Globals.h
+d/Library/Frameworks/SDL_ttf.framework/Headers/SDL_ttf.h
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Frame.h
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/MinBug.h
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/MedBug.h
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Ship.h
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Player.h
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Text.h
+o/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/BigBug.cpp:9:28: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]
+o        addImage(new Image("../../../../../../Image/BigBug3.png", true));
+o                           ^
+o/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/BigBug.cpp:10:28: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]
+o        addImage(new Image("../../../../../../Image/Ship_red.png", true));
+o                           ^
+o2 warnings generated.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Compile /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/BigBug.cpp182"CompileC DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/BigBug.o Game/BigBug.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compilerd861609dc68eb841^49f5e19dc68eb841^-594"/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/BigBug.cpp:9:28: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]        addImage(new Image("../../../../../../Image/BigBug3.png", true));                           ^/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/BigBug.cpp:10:28: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]        addImage(new Image("../../../../../../Image/Ship_red.png", true));                           ^2 warnings generated.2(36%IDEClangDiagnosticActivityLogMessage2@56"Conversion from string literal to 'char *' is deprecated-412010141#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@84"file:///Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/BigBug.cpp0000000000000000^8#27#8#27#211#0#14"Semantic Issue--2@56"Conversion from string literal to 'char *' is deprecated-412010141#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@84"file:///Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/BigBug.cpp0000000000000000^9#27#9#27#285#0#14"Semantic Issue--0#0#1#-19%DVTDocumentLocation4@84"file:///Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/BigBug.cpp0000000000000000^3331"CompileC DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/BigBug.o Game/BigBug.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Game-generated-files.hmap -I/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Game-own-target-headers.hmap -I/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Game-all-target-headers.hmap -iquote /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Game-project-headers.hmap -I/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Products/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/DerivedSources/x86_64 -I/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/DerivedSources -F/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Products/Debug -F/Library/Frameworks -F/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game -MMD -MT dependencies -MF /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/BigBug.d --serialize-diagnostics /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/BigBug.dia -c /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/BigBug.cpp -o /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/BigBug.o36"4F58B34F-F23B-4050-AB5C-8690563C3D3E-
+b7E1C2D28-946D-48A0-B3C9-F4A358500DCC
+
+CCompileC DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/Bug.o /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Bug.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s412010021.350054
+e412010022.187196
+r1
+xCompileC
+xDerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/Bug.o
+x/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Bug.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Bug.cpp
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Bug.h
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Sprite.h
+d/Library/Frameworks/SDL.framework/Headers/SDL.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_main.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_stdinc.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_config.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_platform.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_config_macosx.h
+d/Library/Frameworks/SDL.framework/Headers/begin_code.h
+d/Library/Frameworks/SDL.framework/Headers/close_code.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_audio.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_error.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_endian.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_mutex.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_thread.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_rwops.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_cdrom.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_cpuinfo.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_events.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_active.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_keyboard.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_keysym.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_mouse.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_video.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_joystick.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_quit.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_loadso.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_timer.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_version.h
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Image.h
+d/Library/Frameworks/SDL_image.framework/Headers/SDL_image.h
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Rectangle.h
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Globals.h
+d/Library/Frameworks/SDL_ttf.framework/Headers/SDL_ttf.h
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Frame.h
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/MinBug.h
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/MedBug.h
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/BigBug.h
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Ship.h
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Player.h
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Text.h
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Bullet.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Compile /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Bug.cpp176"CompileC DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/Bug.o Game/Bug.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler18b35925c68eb841^06f72f26c68eb841^---0#0#1#-19%DVTDocumentLocation2@81"file:///Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Bug.cpp0000000000000000^3313"CompileC DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/Bug.o Game/Bug.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Game-generated-files.hmap -I/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Game-own-target-headers.hmap -I/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Game-all-target-headers.hmap -iquote /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Game-project-headers.hmap -I/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Products/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/DerivedSources/x86_64 -I/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/DerivedSources -F/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Products/Debug -F/Library/Frameworks -F/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game -MMD -MT dependencies -MF /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/Bug.d --serialize-diagnostics /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/Bug.dia -c /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Bug.cpp -o /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/Bug.o36"C9870E85-95B8-4D19-ACFE-A01FC3BB69AA-
+b88C0F32E-A549-407C-87D2-867F8807FB5F
+
+CCompileC DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/Bullet.o /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Bullet.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s412010022.193305
+e412010022.853711
+r1
+xCompileC
+xDerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/Bullet.o
+x/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Bullet.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Bullet.cpp
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Bullet.h
+d/Library/Frameworks/SDL.framework/Headers/SDL.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_main.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_stdinc.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_config.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_platform.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_config_macosx.h
+d/Library/Frameworks/SDL.framework/Headers/begin_code.h
+d/Library/Frameworks/SDL.framework/Headers/close_code.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_audio.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_error.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_endian.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_mutex.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_thread.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_rwops.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_cdrom.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_cpuinfo.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_events.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_active.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_keyboard.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_keysym.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_mouse.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_video.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_joystick.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_quit.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_loadso.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_timer.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_version.h
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Sprite.h
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Image.h
+d/Library/Frameworks/SDL_image.framework/Headers/SDL_image.h
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Rectangle.h
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Globals.h
+d/Library/Frameworks/SDL_ttf.framework/Headers/SDL_ttf.h
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Frame.h
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/MinBug.h
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Bug.h
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/MedBug.h
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/BigBug.h
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Ship.h
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Player.h
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Text.h
+o/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Bullet.cpp:10:28: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]
+o        addImage(new Image("../../../../../../Image/bullet.png", true));
+o                           ^
+o1 warning generated.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Compile /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Bullet.cpp182"CompileC DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/Bullet.o Game/Bullet.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compilercec33126c68eb841^378cda26c68eb841^-306"/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Bullet.cpp:10:28: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]        addImage(new Image("../../../../../../Image/bullet.png", true));                           ^1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@56"Conversion from string literal to 'char *' is deprecated-412010022#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@84"file:///Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Bullet.cpp0000000000000000^9#27#9#27#227#0#14"Semantic Issue--0#0#1#-19%DVTDocumentLocation4@84"file:///Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Bullet.cpp0000000000000000^3331"CompileC DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/Bullet.o Game/Bullet.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Game-generated-files.hmap -I/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Game-own-target-headers.hmap -I/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Game-all-target-headers.hmap -iquote /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Game-project-headers.hmap -I/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Products/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/DerivedSources/x86_64 -I/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/DerivedSources -F/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Products/Debug -F/Library/Frameworks -F/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game -MMD -MT dependencies -MF /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/Bullet.d --serialize-diagnostics /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/Bullet.dia -c /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Bullet.cpp -o /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/Bullet.o36"40E71F8D-862C-4CA3-B99B-6A84F705243A-
+b88C0F32E-A549-407C-87D2-867F8807FB5F
+
+CCompileC DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/Frame.o /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Frame.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s412010022.189304
+e412010022.934098
+r1
+xCompileC
+xDerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/Frame.o
+x/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Frame.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Frame.cpp
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Frame.h
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Sprite.h
+d/Library/Frameworks/SDL.framework/Headers/SDL.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_main.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_stdinc.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_config.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_platform.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_config_macosx.h
+d/Library/Frameworks/SDL.framework/Headers/begin_code.h
+d/Library/Frameworks/SDL.framework/Headers/close_code.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_audio.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_error.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_endian.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_mutex.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_thread.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_rwops.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_cdrom.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_cpuinfo.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_events.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_active.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_keyboard.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_keysym.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_mouse.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_video.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_joystick.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_quit.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_loadso.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_timer.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_version.h
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Image.h
+d/Library/Frameworks/SDL_image.framework/Headers/SDL_image.h
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Rectangle.h
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/MinBug.h
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Bug.h
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/MedBug.h
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/BigBug.h
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Ship.h
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Player.h
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Text.h
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Globals.h
+d/Library/Frameworks/SDL_ttf.framework/Headers/SDL_ttf.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Compile /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Frame.cpp180"CompileC DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/Frame.o Game/Frame.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compilere8883026c68eb841^5723ef26c68eb841^---0#0#1#-19%DVTDocumentLocation2@83"file:///Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Frame.cpp0000000000000000^3325"CompileC DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/Frame.o Game/Frame.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Game-generated-files.hmap -I/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Game-own-target-headers.hmap -I/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Game-all-target-headers.hmap -iquote /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Game-project-headers.hmap -I/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Products/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/DerivedSources/x86_64 -I/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/DerivedSources -F/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Products/Debug -F/Library/Frameworks -F/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game -MMD -MT dependencies -MF /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/Frame.d --serialize-diagnostics /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/Frame.dia -c /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Frame.cpp -o /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/Frame.o36"3BE8DA3B-932D-4EAD-894B-EEBBBC8B338E-
+b88C0F32E-A549-407C-87D2-867F8807FB5F
+
+CCompileC DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/GameEngine.o /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/GameEngine.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s412010021.350631
+e412010022.196465
+r1
+xCompileC
+xDerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/GameEngine.o
+x/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/GameEngine.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/GameEngine.cpp
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/GameEngine.h
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Frame.h
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Sprite.h
+d/Library/Frameworks/SDL.framework/Headers/SDL.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_main.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_stdinc.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_config.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_platform.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_config_macosx.h
+d/Library/Frameworks/SDL.framework/Headers/begin_code.h
+d/Library/Frameworks/SDL.framework/Headers/close_code.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_audio.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_error.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_endian.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_mutex.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_thread.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_rwops.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_cdrom.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_cpuinfo.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_events.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_active.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_keyboard.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_keysym.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_mouse.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_video.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_joystick.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_quit.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_loadso.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_timer.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_version.h
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Image.h
+d/Library/Frameworks/SDL_image.framework/Headers/SDL_image.h
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Rectangle.h
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/MinBug.h
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Bug.h
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/MedBug.h
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/BigBug.h
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Ship.h
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Player.h
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Text.h
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Globals.h
+d/Library/Frameworks/SDL_ttf.framework/Headers/SDL_ttf.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Compile /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/GameEngine.cpp190"CompileC DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/GameEngine.o Game/GameEngine.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compilerd8d85925c68eb841^ab793226c68eb841^---0#0#1#-19%DVTDocumentLocation2@88"file:///Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/GameEngine.cpp0000000000000000^3355"CompileC DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/GameEngine.o Game/GameEngine.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Game-generated-files.hmap -I/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Game-own-target-headers.hmap -I/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Game-all-target-headers.hmap -iquote /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Game-project-headers.hmap -I/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Products/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/DerivedSources/x86_64 -I/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/DerivedSources -F/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Products/Debug -F/Library/Frameworks -F/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game -MMD -MT dependencies -MF /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/GameEngine.d --serialize-diagnostics /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/GameEngine.dia -c /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/GameEngine.cpp -o /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/GameEngine.o36"6C56EC7C-4055-4FE5-9F22-E84E369BBD9E-
+b88C0F32E-A549-407C-87D2-867F8807FB5F
+
+CCompileC DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/Globals.o /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Globals.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s412010021.351023
+e412010022.193031
+r1
+xCompileC
+xDerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/Globals.o
+x/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Globals.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Globals.cpp
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Globals.h
+d/Library/Frameworks/SDL.framework/Headers/SDL.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_main.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_stdinc.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_config.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_platform.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_config_macosx.h
+d/Library/Frameworks/SDL.framework/Headers/begin_code.h
+d/Library/Frameworks/SDL.framework/Headers/close_code.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_audio.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_error.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_endian.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_mutex.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_thread.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_rwops.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_cdrom.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_cpuinfo.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_events.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_active.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_keyboard.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_keysym.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_mouse.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_video.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_joystick.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_quit.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_loadso.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_timer.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_version.h
+d/Library/Frameworks/SDL_ttf.framework/Headers/SDL_ttf.h
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Frame.h
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Sprite.h
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Image.h
+d/Library/Frameworks/SDL_image.framework/Headers/SDL_image.h
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Rectangle.h
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/MinBug.h
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Bug.h
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/MedBug.h
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/BigBug.h
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Ship.h
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Player.h
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Text.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"Compile /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Globals.cpp184"CompileC DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/Globals.o Game/Globals.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compilerd0f15925c68eb841^d1753126c68eb841^---0#0#1#-19%DVTDocumentLocation2@85"file:///Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Globals.cpp0000000000000000^3337"CompileC DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/Globals.o Game/Globals.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Game-generated-files.hmap -I/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Game-own-target-headers.hmap -I/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Game-all-target-headers.hmap -iquote /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Game-project-headers.hmap -I/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Products/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/DerivedSources/x86_64 -I/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/DerivedSources -F/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Products/Debug -F/Library/Frameworks -F/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game -MMD -MT dependencies -MF /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/Globals.d --serialize-diagnostics /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/Globals.dia -c /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Globals.cpp -o /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/Globals.o36"A8FF84DD-319B-445B-8802-CFEF35BDB933-
+b88C0F32E-A549-407C-87D2-867F8807FB5F
+
+CCompileC DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/Image.o /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Image.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s412010022.188844
+e412010022.522563
+r1
+xCompileC
+xDerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/Image.o
+x/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Image.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Image.cpp
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Image.h
+d/Library/Frameworks/SDL.framework/Headers/SDL.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_main.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_stdinc.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_config.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_platform.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_config_macosx.h
+d/Library/Frameworks/SDL.framework/Headers/begin_code.h
+d/Library/Frameworks/SDL.framework/Headers/close_code.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_audio.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_error.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_endian.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_mutex.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_thread.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_rwops.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_cdrom.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_cpuinfo.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_events.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_active.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_keyboard.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_keysym.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_mouse.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_video.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_joystick.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_quit.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_loadso.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_timer.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_version.h
+d/Library/Frameworks/SDL_image.framework/Headers/SDL_image.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Compile /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Image.cpp180"CompileC DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/Image.o Game/Image.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler506d3026c68eb841^15c78526c68eb841^---0#0#1#-19%DVTDocumentLocation2@83"file:///Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Image.cpp0000000000000000^3325"CompileC DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/Image.o Game/Image.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Game-generated-files.hmap -I/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Game-own-target-headers.hmap -I/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Game-all-target-headers.hmap -iquote /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Game-project-headers.hmap -I/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Products/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/DerivedSources/x86_64 -I/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/DerivedSources -F/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Products/Debug -F/Library/Frameworks -F/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game -MMD -MT dependencies -MF /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/Image.d --serialize-diagnostics /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/Image.dia -c /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Image.cpp -o /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/Image.o36"B029DEF9-56D9-4EDD-9016-C7D283C7A860-
+b88C0F32E-A549-407C-87D2-867F8807FB5F
+
+CCompileC DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/MedBug.o /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/MedBug.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s412010141.376256
+e412010142.239510
+r1
+xCompileC
+xDerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/MedBug.o
+x/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/MedBug.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/MedBug.cpp
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/MedBug.h
+d/Library/Frameworks/SDL.framework/Headers/SDL.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_main.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_stdinc.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_config.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_platform.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_config_macosx.h
+d/Library/Frameworks/SDL.framework/Headers/begin_code.h
+d/Library/Frameworks/SDL.framework/Headers/close_code.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_audio.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_error.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_endian.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_mutex.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_thread.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_rwops.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_cdrom.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_cpuinfo.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_events.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_active.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_keyboard.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_keysym.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_mouse.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_video.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_joystick.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_quit.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_loadso.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_timer.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_version.h
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Bug.h
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Sprite.h
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Image.h
+d/Library/Frameworks/SDL_image.framework/Headers/SDL_image.h
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Rectangle.h
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Globals.h
+d/Library/Frameworks/SDL_ttf.framework/Headers/SDL_ttf.h
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Frame.h
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/MinBug.h
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/BigBug.h
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Ship.h
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Player.h
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Text.h
+o/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/MedBug.cpp:10:22: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]
+o                addImage(new Image("../../../../../../Image/MedBug2.png", true));
+o                                   ^
+o/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/MedBug.cpp:11:22: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]
+o                addImage(new Image("../../../../../../Image/Ship_red.png", true));
+o                                   ^
+o2 warnings generated.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Compile /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/MedBug.cpp182"CompileC DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/MedBug.o Game/MedBug.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compilera661609dc68eb841^be4f3d9ec68eb841^-627"/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/MedBug.cpp:10:22: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]                addImage(new Image("../../../../../../Image/MedBug2.png", true));                                   ^/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/MedBug.cpp:11:22: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]                addImage(new Image("../../../../../../Image/Ship_red.png", true));                                   ^2 warnings generated.2(36%IDEClangDiagnosticActivityLogMessage2@56"Conversion from string literal to 'char *' is deprecated-412010142#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@84"file:///Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/MedBug.cpp0000000000000000^9#21#9#21#206#0#14"Semantic Issue--2@56"Conversion from string literal to 'char *' is deprecated-412010142#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@84"file:///Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/MedBug.cpp0000000000000000^10#21#10#21#274#0#14"Semantic Issue--0#0#1#-19%DVTDocumentLocation4@84"file:///Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/MedBug.cpp0000000000000000^3331"CompileC DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/MedBug.o Game/MedBug.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Game-generated-files.hmap -I/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Game-own-target-headers.hmap -I/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Game-all-target-headers.hmap -iquote /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Game-project-headers.hmap -I/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Products/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/DerivedSources/x86_64 -I/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/DerivedSources -F/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Products/Debug -F/Library/Frameworks -F/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game -MMD -MT dependencies -MF /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/MedBug.d --serialize-diagnostics /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/MedBug.dia -c /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/MedBug.cpp -o /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/MedBug.o36"BDA4F32B-03EE-4DC5-BD5C-C91352E12CE4-
+b7E1C2D28-946D-48A0-B3C9-F4A358500DCC
+
+CCompileC DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/MinBug.o /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/MinBug.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s412010141.377543
+e412010142.250247
+r1
+xCompileC
+xDerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/MinBug.o
+x/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/MinBug.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/MinBug.cpp
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/MinBug.h
+d/Library/Frameworks/SDL.framework/Headers/SDL.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_main.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_stdinc.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_config.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_platform.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_config_macosx.h
+d/Library/Frameworks/SDL.framework/Headers/begin_code.h
+d/Library/Frameworks/SDL.framework/Headers/close_code.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_audio.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_error.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_endian.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_mutex.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_thread.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_rwops.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_cdrom.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_cpuinfo.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_events.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_active.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_keyboard.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_keysym.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_mouse.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_video.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_joystick.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_quit.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_loadso.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_timer.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_version.h
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Bug.h
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Sprite.h
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Image.h
+d/Library/Frameworks/SDL_image.framework/Headers/SDL_image.h
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Rectangle.h
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Frame.h
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/MedBug.h
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/BigBug.h
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Ship.h
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Player.h
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Text.h
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Globals.h
+d/Library/Frameworks/SDL_ttf.framework/Headers/SDL_ttf.h
+o/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/MinBug.cpp:8:28: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]
+o        addImage(new Image("../../../../../../Image/MinBug1.png", true));
+o                           ^
+o/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/MinBug.cpp:9:28: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]
+o        addImage(new Image("../../../../../../Image/Ship_red.png", true));
+o                           ^
+o2 warnings generated.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Compile /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/MinBug.cpp182"CompileC DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/MinBug.o Game/MinBug.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compilera9bd609dc68eb841^73a2419ec68eb841^-593"/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/MinBug.cpp:8:28: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]        addImage(new Image("../../../../../../Image/MinBug1.png", true));                           ^/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/MinBug.cpp:9:28: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]        addImage(new Image("../../../../../../Image/Ship_red.png", true));                           ^2 warnings generated.2(36%IDEClangDiagnosticActivityLogMessage2@56"Conversion from string literal to 'char *' is deprecated-412010142#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@84"file:///Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/MinBug.cpp0000000000000000^7#27#7#27#211#0#14"Semantic Issue--2@56"Conversion from string literal to 'char *' is deprecated-412010142#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@84"file:///Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/MinBug.cpp0000000000000000^8#27#8#27#285#0#14"Semantic Issue--0#0#1#-19%DVTDocumentLocation4@84"file:///Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/MinBug.cpp0000000000000000^3331"CompileC DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/MinBug.o Game/MinBug.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Game-generated-files.hmap -I/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Game-own-target-headers.hmap -I/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Game-all-target-headers.hmap -iquote /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Game-project-headers.hmap -I/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Products/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/DerivedSources/x86_64 -I/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/DerivedSources -F/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Products/Debug -F/Library/Frameworks -F/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game -MMD -MT dependencies -MF /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/MinBug.d --serialize-diagnostics /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/MinBug.dia -c /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/MinBug.cpp -o /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/MinBug.o36"3ED4AED0-32EB-4C69-8A45-35AF43720CA1-
+b7E1C2D28-946D-48A0-B3C9-F4A358500DCC
+
+CCompileC DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/Player.o /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Player.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s412010022.188295
+e412010022.864365
+r1
+xCompileC
+xDerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/Player.o
+x/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Player.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Player.cpp
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Player.h
+d/Library/Frameworks/SDL.framework/Headers/SDL.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_main.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_stdinc.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_config.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_platform.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_config_macosx.h
+d/Library/Frameworks/SDL.framework/Headers/begin_code.h
+d/Library/Frameworks/SDL.framework/Headers/close_code.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_audio.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_error.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_endian.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_mutex.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_thread.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_rwops.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_cdrom.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_cpuinfo.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_events.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_active.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_keyboard.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_keysym.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_mouse.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_video.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_joystick.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_quit.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_loadso.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_timer.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_version.h
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Sprite.h
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Image.h
+d/Library/Frameworks/SDL_image.framework/Headers/SDL_image.h
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Rectangle.h
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Globals.h
+d/Library/Frameworks/SDL_ttf.framework/Headers/SDL_ttf.h
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Frame.h
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/MinBug.h
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Bug.h
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/MedBug.h
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/BigBug.h
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Ship.h
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Text.h
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Bullet.h
+o/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Player.cpp:10:28: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]
+o        addImage(new Image("../../../../../../Image/Player0.png", true));
+o                           ^
+o1 warning generated.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Compile /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Player.cpp182"CompileC DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/Player.o Game/Player.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler064c3026c68eb841^2847dd26c68eb841^-307"/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Player.cpp:10:28: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]        addImage(new Image("../../../../../../Image/Player0.png", true));                           ^1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@56"Conversion from string literal to 'char *' is deprecated-412010022#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@84"file:///Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Player.cpp0000000000000000^9#27#9#27#247#0#14"Semantic Issue--0#0#1#-19%DVTDocumentLocation4@84"file:///Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Player.cpp0000000000000000^3331"CompileC DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/Player.o Game/Player.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Game-generated-files.hmap -I/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Game-own-target-headers.hmap -I/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Game-all-target-headers.hmap -iquote /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Game-project-headers.hmap -I/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Products/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/DerivedSources/x86_64 -I/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/DerivedSources -F/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Products/Debug -F/Library/Frameworks -F/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game -MMD -MT dependencies -MF /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/Player.d --serialize-diagnostics /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/Player.dia -c /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Player.cpp -o /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/Player.o36"AA11DA45-772C-41A0-921B-70A7FA6E692C-
+b88C0F32E-A549-407C-87D2-867F8807FB5F
+
+CCompileC DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/Rectangle.o /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Rectangle.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s412010022.187606
+e412010022.804649
+r1
+xCompileC
+xDerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/Rectangle.o
+x/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Rectangle.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Rectangle.cpp
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Rectangle.h
+d/Library/Frameworks/SDL.framework/Headers/SDL.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_main.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_stdinc.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_config.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_platform.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_config_macosx.h
+d/Library/Frameworks/SDL.framework/Headers/begin_code.h
+d/Library/Frameworks/SDL.framework/Headers/close_code.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_audio.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_error.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_endian.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_mutex.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_thread.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_rwops.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_cdrom.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_cpuinfo.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_events.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_active.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_keyboard.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_keysym.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_mouse.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_video.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_joystick.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_quit.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_loadso.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_timer.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_version.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"Compile /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Rectangle.cpp188"CompileC DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/Rectangle.o Game/Rectangle.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler00363026c68eb841^dffdcd26c68eb841^---0#0#1#-19%DVTDocumentLocation2@87"file:///Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Rectangle.cpp0000000000000000^3349"CompileC DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/Rectangle.o Game/Rectangle.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Game-generated-files.hmap -I/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Game-own-target-headers.hmap -I/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Game-all-target-headers.hmap -iquote /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Game-project-headers.hmap -I/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Products/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/DerivedSources/x86_64 -I/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/DerivedSources -F/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Products/Debug -F/Library/Frameworks -F/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game -MMD -MT dependencies -MF /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/Rectangle.d --serialize-diagnostics /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/Rectangle.dia -c /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Rectangle.cpp -o /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/Rectangle.o36"B0CCA643-F8B6-4F90-A9F6-ED2FD4D9E763-
+b88C0F32E-A549-407C-87D2-867F8807FB5F
+
+CCompileC DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/SDLMain.o /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/SDLMain.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s412008642.449038
+e412008643.224855
+r1
+xCompileC
+xDerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/SDLMain.o
+x/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/SDLMain.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/SDLMain.m
+d/Library/Frameworks/SDL.framework/Headers/SDL.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_main.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_stdinc.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_config.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_platform.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_config_macosx.h
+d/Library/Frameworks/SDL.framework/Headers/begin_code.h
+d/Library/Frameworks/SDL.framework/Headers/close_code.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_audio.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_error.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_endian.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_mutex.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_thread.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_rwops.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_cdrom.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_cpuinfo.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_events.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_active.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_keyboard.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_keysym.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_mouse.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_video.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_joystick.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_quit.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_loadso.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_timer.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_version.h
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/SDLMain.h
+o/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/SDLMain.m:72:1: warning: category is implementing a method which will also be implemented by its primary class [-Wobjc-protocol-method-implementation]
+o- (void)terminate:(id)sender
+o^
+oIn file included from /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/SDLMain.m:9:
+oIn file included from /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/SDLMain.h:11:
+oIn file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h:13:
+oIn file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.h:15:
+oIn file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSActionCell.h:8:
+oIn file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSCell.h:10:
+oIn file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSText.h:8:
+oIn file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSView.h:8:
+o/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSApplication.h:184:1: note: method 'terminate:' declared here
+o- (void)terminate:(id)sender;
+o^
+o/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/SDLMain.m:313:28: warning: implicit conversion loses integer precision: 'NSUInteger' (aka 'unsigned long') to 'unsigned int' [-Wshorten-64-to-32]
+o    unsigned int selfLen = [self length];
+o                 ~~~~~~~   ^~~~~~~~~~~~~
+o/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/SDLMain.m:314:31: warning: implicit conversion loses integer precision: 'NSUInteger' (aka 'unsigned long') to 'unsigned int' [-Wshorten-64-to-32]
+o    unsigned int aStringLen = [aString length];
+o                 ~~~~~~~~~~   ^~~~~~~~~~~~~~~~
+o/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/SDLMain.m:319:39: warning: implicit conversion loses integer precision: 'unsigned long' to 'unsigned int' [-Wshorten-64-to-32]
+o    bufferSize = selfLen + aStringLen - aRange.length;
+o               ~ ~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~
+o4 warnings generated.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Compile /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/SDLMain.m185"CompileC DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/SDLMain.o SDLMain.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compilerc40a73c2c08eb841^aad339c3c08eb841^-2709"/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/SDLMain.m:72:1: warning: category is implementing a method which will also be implemented by its primary class [-Wobjc-protocol-method-implementation]- (void)terminate:(id)sender^In file included from /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/SDLMain.m:9:In file included from /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/SDLMain.h:11:In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h:13:In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.h:15:In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSActionCell.h:8:In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSCell.h:10:In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSText.h:8:In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSView.h:8:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSApplication.h:184:1: note: method 'terminate:' declared here- (void)terminate:(id)sender;^/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/SDLMain.m:313:28: warning: implicit conversion loses integer precision: 'NSUInteger' (aka 'unsigned long') to 'unsigned int' [-Wshorten-64-to-32]    unsigned int selfLen = [self length];                 ~~~~~~~   ^~~~~~~~~~~~~/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/SDLMain.m:314:31: warning: implicit conversion loses integer precision: 'NSUInteger' (aka 'unsigned long') to 'unsigned int' [-Wshorten-64-to-32]    unsigned int aStringLen = [aString length];                 ~~~~~~~~~~   ^~~~~~~~~~~~~~~~/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/SDLMain.m:319:39: warning: implicit conversion loses integer precision: 'unsigned long' to 'unsigned int' [-Wshorten-64-to-32]    bufferSize = selfLen + aStringLen - aRange.length;               ~ ~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~4 warnings generated.4(36%IDEClangDiagnosticActivityLogMessage2@85"Category is implementing a method which will also be implemented by its primary class-412008643#18446744073709551615#0#1(2@33"Method 'terminate:' declared here-412008643#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@172"file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSApplication.h0000000000000000^183#0#183#0#8083#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@78"file:///Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/SDLMain.m0000000000000000^71#0#71#0#2037#0#14"Semantic Issue--2@97"Implicit conversion loses integer precision: 'NSUInteger' (aka 'unsigned long') to 'unsigned int'-412008643#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@78"file:///Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/SDLMain.m0000000000000000^312#27#312#27#9448#0#22"Value Conversion Issue2(3@78"file:///Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/SDLMain.m0000000000000000^312#27#312#40#9448#12#3@78"file:///Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/SDLMain.m0000000000000000^312#17#312#24#9438#0#-2@97"Implicit conversion loses integer precision: 'NSUInteger' (aka 'unsigned long') to 'unsigned int'-412008643#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@78"file:///Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/SDLMain.m0000000000000000^313#30#313#30#9493#0#22"Value Conversion Issue2(3@78"file:///Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/SDLMain.m0000000000000000^313#30#313#46#9493#15#3@78"file:///Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/SDLMain.m0000000000000000^313#17#313#27#9480#0#-2@78"Implicit conversion loses integer precision: 'unsigned long' to 'unsigned int'-412008643#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@78"file:///Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/SDLMain.m0000000000000000^318#38#318#38#9621#0#22"Value Conversion Issue2(3@78"file:///Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/SDLMain.m0000000000000000^318#17#318#53#9600#30#3@78"file:///Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/SDLMain.m0000000000000000^318#15#318#16#9598#0#-0#0#1#-19%DVTDocumentLocation4@78"file:///Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/SDLMain.m0000000000000000^3453"CompileC DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/SDLMain.o SDLMain.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-arc-bridge-casts-disallowed-in-nonarc -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.9 -g -Wno-sign-conversion -iquote /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Game-generated-files.hmap -I/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Game-own-target-headers.hmap -I/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Game-all-target-headers.hmap -iquote /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Game-project-headers.hmap -I/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Products/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/DerivedSources/x86_64 -I/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/DerivedSources -F/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Products/Debug -F/Library/Frameworks -F/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game -MMD -MT dependencies -MF /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/SDLMain.d --serialize-diagnostics /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/SDLMain.dia -c /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/SDLMain.m -o /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/SDLMain.o36"530A810D-46AB-42C8-B310-5EC587C1E229-
+bF85A0936-76A2-43BE-8608-B2EECD7F93E4
+
+CCompileC DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/Ship.o /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Ship.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s412010141.378631
+e412010142.249082
+r1
+xCompileC
+xDerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/Ship.o
+x/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Ship.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Ship.cpp
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Ship.h
+d/Library/Frameworks/SDL.framework/Headers/SDL.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_main.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_stdinc.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_config.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_platform.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_config_macosx.h
+d/Library/Frameworks/SDL.framework/Headers/begin_code.h
+d/Library/Frameworks/SDL.framework/Headers/close_code.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_audio.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_error.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_endian.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_mutex.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_thread.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_rwops.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_cdrom.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_cpuinfo.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_events.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_active.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_keyboard.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_keysym.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_mouse.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_video.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_joystick.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_quit.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_loadso.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_timer.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_version.h
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Bug.h
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Sprite.h
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Image.h
+d/Library/Frameworks/SDL_image.framework/Headers/SDL_image.h
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Rectangle.h
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Globals.h
+d/Library/Frameworks/SDL_ttf.framework/Headers/SDL_ttf.h
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Frame.h
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/MinBug.h
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/MedBug.h
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/BigBug.h
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Player.h
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Text.h
+o/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Ship.cpp:9:28: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]
+o        addImage(new Image("../../../../../../Image/Ship_red.png", true));
+o                           ^
+o/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Ship.cpp:10:28: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]
+o        addImage(new Image("../../../../../../Image/Ship_green.png", true));
+o                           ^
+o2 warnings generated.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Compile /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Ship.cpp178"CompileC DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/Ship.o Game/Ship.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compilerec31619dc68eb841^179c419ec68eb841^-593"/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Ship.cpp:9:28: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]        addImage(new Image("../../../../../../Image/Ship_red.png", true));                           ^/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Ship.cpp:10:28: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]        addImage(new Image("../../../../../../Image/Ship_green.png", true));                           ^2 warnings generated.2(36%IDEClangDiagnosticActivityLogMessage2@56"Conversion from string literal to 'char *' is deprecated-412010142#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@82"file:///Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Ship.cpp0000000000000000^8#27#8#27#205#0#14"Semantic Issue--2@56"Conversion from string literal to 'char *' is deprecated-412010142#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@82"file:///Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Ship.cpp0000000000000000^9#27#9#27#280#0#14"Semantic Issue--0#0#1#-19%DVTDocumentLocation4@82"file:///Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Ship.cpp0000000000000000^3319"CompileC DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/Ship.o Game/Ship.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Game-generated-files.hmap -I/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Game-own-target-headers.hmap -I/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Game-all-target-headers.hmap -iquote /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Game-project-headers.hmap -I/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Products/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/DerivedSources/x86_64 -I/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/DerivedSources -F/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Products/Debug -F/Library/Frameworks -F/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game -MMD -MT dependencies -MF /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/Ship.d --serialize-diagnostics /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/Ship.dia -c /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Ship.cpp -o /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/Ship.o36"96FB9572-264E-4D23-B7FD-210A96B13F9B-
+b7E1C2D28-946D-48A0-B3C9-F4A358500DCC
+
+CCompileC DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/Sprite.o /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Sprite.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s412010021.350086
+e412010022.206606
+r1
+xCompileC
+xDerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/Sprite.o
+x/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Sprite.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Sprite.cpp
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Sprite.h
+d/Library/Frameworks/SDL.framework/Headers/SDL.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_main.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_stdinc.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_config.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_platform.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_config_macosx.h
+d/Library/Frameworks/SDL.framework/Headers/begin_code.h
+d/Library/Frameworks/SDL.framework/Headers/close_code.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_audio.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_error.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_endian.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_mutex.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_thread.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_rwops.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_cdrom.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_cpuinfo.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_events.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_active.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_keyboard.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_keysym.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_mouse.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_video.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_joystick.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_quit.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_loadso.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_timer.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_version.h
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Image.h
+d/Library/Frameworks/SDL_image.framework/Headers/SDL_image.h
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Rectangle.h
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Globals.h
+d/Library/Frameworks/SDL_ttf.framework/Headers/SDL_ttf.h
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Frame.h
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/MinBug.h
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Bug.h
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/MedBug.h
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/BigBug.h
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Ship.h
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Player.h
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Text.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Compile /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Sprite.cpp182"CompileC DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/Sprite.o Game/Sprite.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler7db35925c68eb841^40be3826c68eb841^---0#0#1#-19%DVTDocumentLocation2@84"file:///Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Sprite.cpp0000000000000000^3331"CompileC DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/Sprite.o Game/Sprite.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Game-generated-files.hmap -I/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Game-own-target-headers.hmap -I/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Game-all-target-headers.hmap -iquote /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Game-project-headers.hmap -I/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Products/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/DerivedSources/x86_64 -I/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/DerivedSources -F/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Products/Debug -F/Library/Frameworks -F/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game -MMD -MT dependencies -MF /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/Sprite.d --serialize-diagnostics /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/Sprite.dia -c /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Sprite.cpp -o /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/Sprite.o36"D8E9F930-103D-45AD-A599-ADA88C3E8966-
+b88C0F32E-A549-407C-87D2-867F8807FB5F
+
+CCompileC DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/Test.o /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Test.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s412010022.221012
+e412010022.861032
+r1
+xCompileC
+xDerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/Test.o
+x/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Test.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Test.cpp
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Test.h
+d/Library/Frameworks/SDL.framework/Headers/SDL.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_main.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_stdinc.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_config.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_platform.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_config_macosx.h
+d/Library/Frameworks/SDL.framework/Headers/begin_code.h
+d/Library/Frameworks/SDL.framework/Headers/close_code.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_audio.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_error.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_endian.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_mutex.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_thread.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_rwops.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_cdrom.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_cpuinfo.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_events.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_active.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_keyboard.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_keysym.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_mouse.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_video.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_joystick.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_quit.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_loadso.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_timer.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_version.h
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Sprite.h
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Image.h
+d/Library/Frameworks/SDL_image.framework/Headers/SDL_image.h
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Rectangle.h
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Globals.h
+d/Library/Frameworks/SDL_ttf.framework/Headers/SDL_ttf.h
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Frame.h
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/MinBug.h
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Bug.h
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/MedBug.h
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/BigBug.h
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Ship.h
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Player.h
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Text.h
+o/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Test.cpp:9:28: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]
+o        addImage(new Image("../../../../../../Image/Ship.png", true));
+o                           ^
+o/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Test.cpp:10:28: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]
+o        addImage(new Image("../../../../../../Image/Ship_green.png", true));
+o                           ^
+o2 warnings generated.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Compile /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Test.cpp178"CompileC DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/Test.o Game/Test.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler19ac3826c68eb841^766cdc26c68eb841^-589"/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Test.cpp:9:28: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]        addImage(new Image("../../../../../../Image/Ship.png", true));                           ^/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Test.cpp:10:28: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]        addImage(new Image("../../../../../../Image/Ship_green.png", true));                           ^2 warnings generated.2(36%IDEClangDiagnosticActivityLogMessage2@56"Conversion from string literal to 'char *' is deprecated-412010022#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@82"file:///Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Test.cpp0000000000000000^8#27#8#27#131#0#14"Semantic Issue--2@56"Conversion from string literal to 'char *' is deprecated-412010022#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@82"file:///Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Test.cpp0000000000000000^9#27#9#27#202#0#14"Semantic Issue--0#0#1#-19%DVTDocumentLocation4@82"file:///Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Test.cpp0000000000000000^3319"CompileC DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/Test.o Game/Test.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Game-generated-files.hmap -I/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Game-own-target-headers.hmap -I/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Game-all-target-headers.hmap -iquote /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Game-project-headers.hmap -I/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Products/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/DerivedSources/x86_64 -I/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/DerivedSources -F/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Products/Debug -F/Library/Frameworks -F/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game -MMD -MT dependencies -MF /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/Test.d --serialize-diagnostics /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/Test.dia -c /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Test.cpp -o /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/Test.o36"4A39064F-CBB4-4C27-9BB8-F98EF203943F-
+b88C0F32E-A549-407C-87D2-867F8807FB5F
+
+CCompileC DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/Text.o /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Text.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s412010022.198081
+e412010022.862098
+r1
+xCompileC
+xDerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/Text.o
+x/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Text.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Text.cpp
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Text.h
+d/Library/Frameworks/SDL.framework/Headers/SDL.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_main.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_stdinc.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_config.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_platform.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_config_macosx.h
+d/Library/Frameworks/SDL.framework/Headers/begin_code.h
+d/Library/Frameworks/SDL.framework/Headers/close_code.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_audio.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_error.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_endian.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_mutex.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_thread.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_rwops.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_cdrom.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_cpuinfo.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_events.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_active.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_keyboard.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_keysym.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_mouse.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_video.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_joystick.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_quit.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_loadso.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_timer.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_version.h
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Rectangle.h
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Globals.h
+d/Library/Frameworks/SDL_ttf.framework/Headers/SDL_ttf.h
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Frame.h
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Sprite.h
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Image.h
+d/Library/Frameworks/SDL_image.framework/Headers/SDL_image.h
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/MinBug.h
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Bug.h
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/MedBug.h
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/BigBug.h
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Ship.h
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Player.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Compile /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Text.cpp178"CompileC DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/Text.o Game/Text.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compilereece3226c68eb841^0bb3dc26c68eb841^---0#0#1#-19%DVTDocumentLocation2@82"file:///Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Text.cpp0000000000000000^3319"CompileC DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/Text.o Game/Text.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Game-generated-files.hmap -I/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Game-own-target-headers.hmap -I/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Game-all-target-headers.hmap -iquote /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Game-project-headers.hmap -I/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Products/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/DerivedSources/x86_64 -I/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/DerivedSources -F/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Products/Debug -F/Library/Frameworks -F/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game -MMD -MT dependencies -MF /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/Text.d --serialize-diagnostics /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/Text.dia -c /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Text.cpp -o /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/Text.o36"9490A3B6-B115-4B45-9F44-F59561CFC613-
+b88C0F32E-A549-407C-87D2-867F8807FB5F
+
+CCompileC DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/main.o /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s412010021.350111
+e412010022.220661
+r1
+xCompileC
+xDerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/main.o
+x/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/main.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/main.cpp
+d/Library/Frameworks/SDL.framework/Headers/SDL.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_main.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_stdinc.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_config.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_platform.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_config_macosx.h
+d/Library/Frameworks/SDL.framework/Headers/begin_code.h
+d/Library/Frameworks/SDL.framework/Headers/close_code.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_audio.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_error.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_endian.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_mutex.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_thread.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_rwops.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_cdrom.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_cpuinfo.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_events.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_active.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_keyboard.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_keysym.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_mouse.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_video.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_joystick.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_quit.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_loadso.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_timer.h
+d/Library/Frameworks/SDL.framework/Headers/SDL_version.h
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/MedBug.h
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Bug.h
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Sprite.h
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Image.h
+d/Library/Frameworks/SDL_image.framework/Headers/SDL_image.h
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Rectangle.h
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/MinBug.h
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Frame.h
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/BigBug.h
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Ship.h
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Player.h
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Text.h
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Globals.h
+d/Library/Frameworks/SDL_ttf.framework/Headers/SDL_ttf.h
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/GameEngine.h
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/Test.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Compile /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/main.cpp178"CompileC DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/main.o Game/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler17b75925c68eb841^5b093926c68eb841^---0#0#1#-19%DVTDocumentLocation2@82"file:///Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/main.cpp0000000000000000^3319"CompileC DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/main.o Game/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Game-generated-files.hmap -I/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Game-own-target-headers.hmap -I/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Game-all-target-headers.hmap -iquote /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Game-project-headers.hmap -I/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Products/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/DerivedSources/x86_64 -I/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/DerivedSources -F/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Products/Debug -F/Library/Frameworks -F/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game -MMD -MT dependencies -MF /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/main.d --serialize-diagnostics /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/main.dia -c /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/Game/main.cpp -o /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/main.o36"FFBA89E7-3060-44C0-AE01-F48AB4860022-
+b88C0F32E-A549-407C-87D2-867F8807FB5F
+
+CLd /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Products/Debug/Game normal x86_64
+s412010142.252543
+e412010142.286608
+r1
+xLd
+x/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Products/Debug/Game
+xnormal
+xx86_64
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/Game.LinkFileList
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/SDLMain.o
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/Bug.o
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/Sprite.o
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/main.o
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/BigBug.o
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/GameEngine.o
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/MedBug.o
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/Globals.o
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/MinBug.o
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/Test.o
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/Rectangle.o
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/Player.o
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/Image.o
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/Frame.o
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/Bullet.o
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/Text.o
+d/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/Ship.o
+d/Library/Frameworks/SDL_image.framework/SDL_image
+d/Library/Frameworks/SDL_ttf.framework/SDL_ttf
+d/Library/Frameworks/SDL.framework/SDL
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Cocoa.framework/Cocoa
+d/Library/Frameworks/SDL_mixer.framework/SDL_mixer
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libobjc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libc++.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libSystem.dylib
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.0/lib/darwin/libclang_rt.osx.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcache.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcommonCrypto.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcompiler_rt.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcopyfile.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcorecrypto.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libdispatch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libdyld.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libkeymgr.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/liblaunch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libmacho.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libquarantine.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libremovefile.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_asl.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_blocks.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_c.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_configuration.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_dnssd.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_info.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_kernel.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_m.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_malloc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_network.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_notify.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_platform.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_pthread.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_sandbox.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_stats.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libunc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libunwind.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libxpc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/AppKit.framework/AppKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreData.framework/CoreData
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/ApplicationServices
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreText.framework/CoreText
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ImageIO.framework/ImageIO
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ATS.framework/Versions/A/ATS
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ColorSync.framework/Versions/A/ColorSync
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/CoreServices
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/HIServices.framework/Versions/A/HIServices
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/LangAnalysis.framework/Versions/A/LangAnalysis
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/PrintCore.framework/Versions/A/PrintCore
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/QD.framework/Versions/A/QD
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/SpeechSynthesis.framework/Versions/A/SpeechSynthesis
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/CarbonCore.framework/Versions/A/CarbonCore
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Metadata
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/OSServices.framework/Versions/A/OSServices
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/SearchKit.framework/Versions/A/SearchKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/AE.framework/Versions/A/AE
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/LaunchServices.framework/Versions/A/LaunchServices
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/DictionaryServices.framework/Versions/A/DictionaryServices
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection109"Link /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Products/Debug/Game59"Ld DerivedData/Game/Build/Products/Debug/Game normal x86_64eeb1409ec68eb841^3160499ec68eb841^---0#0#1#--1329"Ld DerivedData/Game/Build/Products/Debug/Game normal x86_64    cd /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game    setenv MACOSX_DEPLOYMENT_TARGET 10.9    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -L/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Products/Debug -F/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Products/Debug -F/Library/Frameworks -F/Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game -filelist /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/Game.LinkFileList -mmacosx-version-min=10.9 -fobjc-link-runtime -stdlib=libc++ -framework SDL_image -framework SDL_ttf -framework SDL -framework Cocoa -framework SDL_mixer -Xlinker -dependency_info -Xlinker /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Intermediates/Game.build/Debug/Game.build/Objects-normal/x86_64/Game_dependency_info.dat -o /Users/teodorostlund/Documents/Programmering/Skola/PROG3/Game/DerivedData/Game/Build/Products/Debug/Game36"C6660E06-03DB-4221-986A-3F7645887146-
+b7E1C2D28-946D-48A0-B3C9-F4A358500DCC
+
