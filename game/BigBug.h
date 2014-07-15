@@ -20,8 +20,6 @@ namespace engine {
     public:
         static BigBug* getInstance (int x, int y, int speed, int value, bool shoot);// För att förbereda för subklasser av bigbug.
         ~BigBug();
-        //void tick();
-        //void draw();
     };
 }
 

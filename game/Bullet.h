@@ -22,8 +22,6 @@ namespace engine {
         ~Bullet();
         void tick();
         void draw();
-        
-        
     };
 }
 

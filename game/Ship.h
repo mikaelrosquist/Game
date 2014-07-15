@@ -23,8 +23,6 @@ namespace engine {
         ~Ship();
         void tick();
         void draw();
-        
-        
     };
 }
 

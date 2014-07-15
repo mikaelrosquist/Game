@@ -22,8 +22,6 @@ namespace engine {
     public:
         static MinBug* getInstance (int x, int y, int speed, int value, bool shoot);// För att förberda för subklasser av Minbug.
         ~MinBug();
-        //void tick();
-        //void draw();
     };
 }
 #endif /* defined(__Game__MinBug__) */

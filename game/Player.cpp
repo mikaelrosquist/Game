@@ -6,18 +6,26 @@
 
 namespace engine{
     
-    Player::Player(int x, int y, int speed, int value) : Sprite(x,y,speed),value(value){
-        addImage(new Image("../../../../../../Image/Player0.png", true));
+    Player::Player(int x, int y, int speed, int lives) : Sprite(x,y,speed), lives(lives){
+        addImage(new Image("Image/Player0.png", true));
     }
     
     void Player::draw() {
-		SDL_BlitSurface(Sprite::images[0]->getSurface(), NULL,sys.screen, &rect);
+		SDL_BlitSurface(Sprite::images[0]->getSurface(), NULL, sys.screen, &rect);
 	}
     
     Player:: ~Player() {
         
     }
+	
+	void Player::setLives(int l){
+		lives = l;
+	}
     
+	int Player::getLives() const{
+		return lives;
+	}
+	
     void Player::tick() {
         
         // Gör något
@@ -35,13 +43,13 @@ namespace engine{
             rect.x -= 10;
         if(keystate [SDLK_UP]) {
             Rectangle rectangel = rect.centeredRect(10,10);
-            Bullet* bull = Bullet::getInstance(rectangel.x, rectangel.y, UP, 10);
+            Bullet* bull = Bullet::getInstance(rectangel.x+4, rectangel.y, UP, 20);
             sys.level->addBullets(bull);// Lägger in den i vectorn.
         }
     }
 	
-    Player* Player :: getInstance(int x, int y, int speed, int value) {
-        return new Player(x,y,speed,value);
+    Player* Player :: getInstance(int x, int y, int speed, int lives) {
+        return new Player(x,y,speed,lives);
     }
     
 }

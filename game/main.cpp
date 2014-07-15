@@ -8,7 +8,6 @@
 #include "Globals.h"
 #include "Frame.h"
 #include "GameEngine.h"
-#include "Test.h"
 #define MINBUGVALUE 10 // poäng för varje bug.
 #define MEDBUGVALUE 20
 #define BIGBUGVALUE 30
@@ -21,6 +20,7 @@ Frame* createLevel1(){
     
     int xPos = 0;
     
+	//skapar bugs
     for(int i=0 ; i<10 ; i++) {
         xPos += 50;
         frame->addBugs(MinBug :: getInstance(xPos,90,10,MINBUGVALUE,false));
@@ -28,10 +28,15 @@ Frame* createLevel1(){
         frame->addBugs(BigBug :: getInstance(xPos,190,10,BIGBUGVALUE,true));
     }
     
-    frame->addPlayer(Player :: getInstance(400,500,10,5));
+	//skapar player
+	frame->addPlayer(Player :: getInstance(380,500,10,1));
+	
+	//skapar shields
+	for(int i=0; i<4; i++)
+		frame->addShield(Shield :: getInstance(150*i+150, 450, 10, 50));
     
-    //Ship* bug4 = Ship :: getInstance(10,60,10,5,false);
-    //frame->addBugs(bug4);
+    Ship* bug4 = Ship :: getInstance(-20,40,10,100,false);
+    frame->addBugs(bug4);
     
     return frame;
 }
@@ -49,21 +54,16 @@ Frame* createLevel2(){
     }
     
     frame->addPlayer(Player :: getInstance(400,500,10,5));
-    Ship* bug4 = Ship :: getInstance(10,60,10,5,false);
+	
+	for(int i=0; i<4; i++)
+		frame->addShield(Shield :: getInstance(150*i+150, 450, 10, 50));
+	
+    Ship* bug4 = Ship :: getInstance(-20,40,10,100,false);
     frame->addBugs(bug4);
     
     return frame;
 }
 
-/*
- Fixa
- - kollision metod
- - poäng räkning
- - byta bild
- - sätta hastighet
- - städa bort Sprites
- 
- */
 int main(int argc, char ** argv) {
     
     GameEngine engine; // Skapa och initiera motorn/händelseloopen
@@ -79,6 +79,7 @@ int main(int argc, char ** argv) {
         engine.setFrame(*iter);
         continueGame = engine.run(); // Om spelet ska fortsätta eller inte.
         iter++;
+		
     }
     engine.gameOver();
 	

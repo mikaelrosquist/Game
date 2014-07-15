@@ -19,7 +19,7 @@ namespace engine {
     void GameEngine :: init() {
         sys.init();
         screen = sys.screen;
-        scoreField = new Text(200,20,30,30, "Score");
+        scoreField = new Text(650,550,30,30, "Score");
         score = 0;
     }
     
@@ -66,7 +66,6 @@ namespace engine {
             scoreField->setText(score);
             scoreField->draw();
             
-            
             SDL_Flip(sys.screen);
         }
         
@@ -75,7 +74,7 @@ namespace engine {
     
     //En textruta som skriver ut Game Over när spelaren har förlorat.
     void GameEngine::gameOver() {
-        Text* gameover =new Text(200,250,100,200, "Game Over");
+        Text* gameover =new Text(330,250,50,30, "Game Over");
         gameover->draw();
         SDL_Flip(sys.screen);
         SDL_Delay(5000);

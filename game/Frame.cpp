@@ -5,7 +5,7 @@
 #include "Bug.h"
 
 #define FPS 60
-#define MINBUGVALUE 10 // poäng för varje bug.
+#define MINBUGVALUE 10 //poäng för varje bug.
 #define MEDBUGVALUE 20
 #define BIGBUGVALUE 30
 
@@ -21,18 +21,21 @@ namespace engine {
         for (int i =0; i<bugs.size();i++) {
             bugs[i]->draw();
         }
-        for (int i =0; i<player.size();i++) {
-            player[i]->draw();
+        for (int i =0; i<players.size();i++) {
+            players[i]->draw();
         }
         for (int i =0; i<bullets.size();i++) {
             bullets[i]->draw();
+        }
+		for (int i =0; i<shields.size();i++) {
+            shields[i]->draw();
         }
     }
 	
     
     void Frame:: keyDown(SDLKey key) {
-        for(int i=0;i<player.size();i++)
-            player[i]->keyDown(key);
+        for(int i=0;i<players.size();i++)
+            players[i]->keyDown(key);
     }
     
     
@@ -43,74 +46,106 @@ namespace engine {
             bugs[i]->tick();
         }
         
-        for(int i=0;i<player.size();i++){
-            player[i]->tick();
+        for(int i=0;i<players.size();i++){
+            players[i]->tick();
         }
+		
         for(int i=0;i<bullets.size();i++){
             bullets[i]->tick();
         }
+		
+		for (int i =0; i<shields.size();i++) {
+            shields[i]->tick();
+        }
         
         checkBugCollision();
+		checkPlayerCollision();
+		checkShieldCollision();
+
+		checkBulletOutside();
+
         if (quit)
             return;
-        //checkPlayerCollision();
-		
     }
     
     //kollar kollisioner mellan bullets och bugs
     void Frame::checkBugCollision() {
 		
         for(int i=0;i<bullets.size();i++) {
-            if (bullets[i]->getDirection() != DOWN) {
+            if (bullets[i]->getDirection() == UP) {
                 Rectangle* rect1 = (bullets[i]->Sprite::getRect());
                 
                 for(int j=0;j<bugs.size();j++){
-                    if (!bugs[j]->getErased()) {
-                        Rectangle* rect2 = (bugs[j]->Sprite::getRect());
-                        if (rect1->Rectangle::overlaps(*rect2)){
-                            bugs[j]->setErased(true); // Om bugg är träffad, spars det i variabel erased.
-                            quit = checkPlayerWin();
-                            if (j != 0 && j != 3 && j != 6 && j != 9 && j && 12 && j != 15 && j != 18 && j != 21 && j != 24 && j != 27)
-                                bugs[j-1]->setShoot(true);
-                            score = bugs[j]->Bug::getValue();
-                            bullets.erase(bullets.begin()+i);
-                        }
-                    }
-                }
-            }
-        }
-    }
+					Rectangle* rect2 = (bugs[j]->Sprite::getRect());
+					if (rect1->Rectangle::overlaps(*rect2)){
+						score += bugs[j]->Bug::getValue();
+						bugs.erase(bugs.begin()+j);
+						bullets.erase(bullets.begin()+i);
+						quit = checkPlayerWin();
+					}
+				}
+			}
+		}
+	}
     
     //kollar kollisioner mellan player och bullet
     void Frame::checkPlayerCollision() {
-        for(int i=0;i<player.size();i++){
-            Rectangle* rect1 = (player[i]->Sprite::getRect());
+        for(int i=0;i<players.size();i++){
+            Rectangle* rect1 = players[i]->Sprite::getRect();
             
             for(int j=0;j<bullets.size();j++){
-                if (bullets[j]->getDirection() != UP) {
-                    Rectangle* rect2 = (bullets[j]->Sprite::getRect());
+                if (bullets[j]->getDirection() == DOWN) {
+                    Rectangle* rect2 = bullets[j]->Sprite::getRect();
                     
                     if (rect1->Rectangle::overlaps(*rect2)){
-                        player.erase(player.begin()+i); //tar bort player, ska väl egentligen bli 'game over' eller nåt.
-                        if(player.empty()) {
-                            quit = true; //Spelet ska avslutas
-                        }
-                    }
-                    
-                }
-            }
-        }
-    }
-    
-    // Går igenom bugs och tittar om alla är träffade av bullet.
+						players.erase(players.begin()+i);
+						bullets.erase(bullets.begin()+j);
+						quit = true; //Spelet ska avslutas
+					}
+				}
+			}
+		}
+	}
+	
+	//kollar kollisioner mellan bullet och shield
+	void Frame::checkShieldCollision(){
+		for(int i=0; i<bullets.size(); i++){
+			Rectangle* rect1 = bullets[i]->Sprite::getRect();
+			
+			for(int j=0; j <shields.size(); j++){
+				Rectangle* rect2 = shields[j]->Sprite::getRect();
+				
+				if (rect1->Rectangle::overlaps(*rect2)){
+					Shield* tmp = dynamic_cast<Shield*>(shields[j]);
+					bullets.erase(bullets.begin()+i);
+					
+					if(tmp->Shield::changeImage()) //byter bild och kollar om shield ska tas bort
+						shields.erase(shields.begin()+j);
+				}
+			}
+		}
+	}
+	
+    // Går igenom bugs och tittar om alla är borta, undantag görs för Ship.
     bool Frame::checkPlayerWin(){
-        for(int i = 0; i<bugs.size(); i++) {
-            if(!bugs[i]->getErased())
-                return false;
-        }
-        return true;
+		if(bugs.empty())
+			return true;
+		else if(bugs.size() == 1)
+			if(Ship* s = dynamic_cast<Ship*>(bugs[0])) //kanske finns snyggare lösning (onödigt att tilldela?)
+				return true;
+        return false;
     }
-    
+	
+	// Tar bort bullets när de åker utanför skärmen
+	void Frame::checkBulletOutside(){
+        for(int i=0;i<bullets.size();i++) {
+			if (bullets[i]->Sprite::getYPosition() < 0 || bullets[i]->Sprite::getYPosition() > 600){
+				delete bullets[i];
+				bullets.erase(bullets.begin()+i);
+			}
+        }
+	}
+	
     bool Frame::checkPlayerLoss() {
         return quit;
     }
@@ -128,7 +163,15 @@ namespace engine {
     }
     
     void Frame::addPlayer(Sprite* p){
-        player.push_back(p);
+        players.push_back(p);
+    }
+	
+	Sprite* Frame::getPlayer(int p) const{
+		return players[p];
+	}
+	
+	void Frame::addShield(Sprite* s){
+        shields.push_back(s);
     }
     
     void Frame::addBullets(Sprite *b){
@@ -139,10 +182,10 @@ namespace engine {
         texts.push_back(t);
     }
     
-    void Frame :: run () {
+    void Frame::run () {
     }
     
-    Frame :: ~Frame(void) {
+    Frame::~Frame() {
         
     }
 	

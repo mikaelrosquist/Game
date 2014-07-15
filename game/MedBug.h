@@ -25,8 +25,6 @@ namespace engine {
     public:
         static  MedBug* getInstance (int x, int y, int speed, int value,bool shoot);// För att förberda för subklasser av Medbug.
         ~MedBug();
-        //void tick();
-        //void draw();
     };
 }
 

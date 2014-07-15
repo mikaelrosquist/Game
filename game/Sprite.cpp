@@ -28,8 +28,13 @@ namespace engine {
     
     void Sprite::setPosition(int x, int y) {
         rect.x = x;
-        rect.y =y;
+        rect.y = y;
     }
+	
+	int Sprite::getYPosition(){
+		return rect.y;
+	}
+	
     //vilket håll sprite går åt.
     void Sprite::setDirection(int d) {
         Sprite::direction = d;

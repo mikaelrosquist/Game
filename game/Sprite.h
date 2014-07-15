@@ -16,19 +16,7 @@
 namespace engine {
     
     class Sprite {
-		
-    private:
-        int speed;
-        Sprite(Sprite& other); //Copy-konstruktorn
-        Sprite& operator= (Sprite& other); //Tilldelning
-        int direction;
-		
-    protected:
-        Sprite();
-        Sprite(int x, int y, int speed); // Konstruktor private för att inte kunna skapa new.
-        std::vector<Image*> images;// har en vector med bilder, kan ha hur många bilder som helst
-        
-        
+    
     public:
         Rectangle rect;
         void addImage(Image* ny);
@@ -43,10 +31,22 @@ namespace engine {
         //void collisionDetector();
         void setSpeed(int sp);
         void setPosition(int x, int y);
+		int getYPosition();
         void setDirection(int d);
         int getDirection();
         Rectangle* getRect();
         virtual~Sprite();//Destruktor
+        std::vector<Image*> images;// har en vector med bilder
+    
+    protected:
+        Sprite();
+        Sprite(int x, int y, int speed); // Konstruktor private för att inte kunna skapa new.
+        
+    private:
+        int speed;
+        Sprite(Sprite& other); //Copy-konstruktorn
+        Sprite& operator= (Sprite& other); //Tilldelning
+        int direction;
     };
 	
 }//engine
