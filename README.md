@@ -1,5 +1,5 @@
 # Space Invaders in C++
-In an advanced university course in C/C++ programming we had to code a 2D game. The game had to be as generic as possible to future developers could fork it and make another version of the game. We chose to make a copy of the old time classic Space Invaders.
+Written for an assignment in a programming course. The task was to create a game engine along with a 2D game, that would be as generically written as possible so that future changes could be done with less effort. We chose to make a version of the classic game Space Invaders. It's written in C/C++ and uses the SDL framework.
 
 ## Screenshot
 ![Screenshots](https://raw.githubusercontent.com/mikaelrosquist/space-invaders/master/screenshots/SIShot.png "Space Invaders")
